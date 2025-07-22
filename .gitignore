@@ -1,0 +1,38 @@
+# Ignore Docker build files
+*.pid
+*.seed
+*.log
+*.tar
+*.gz
+
+# Ignore Docker Compose override files
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# Ignore Docker volumes (if mapped to local folders)
+volumes/
+data/
+tmp/
+*.db
+
+# Ignore local environment files
+.env
+.env.*
+
+# Ignore compiled application code or dependencies (if built inside container)
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+
+# Ignore editor/OS files
+.DS_Store
+Thumbs.db
+
+# Ignore any generated image layers (if exporting tarballs)
+*.img
+*.bin
+
+# Optional: ignore docker secrets
+secrets/
