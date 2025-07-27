@@ -1,0 +1,4255 @@
+{
+    "title": "",
+    "outline": [
+        {
+            "level": "H3",
+            "text": "The following books are available in paperback on  Amazon :",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "9 best practices for developing microservices​",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "10 Good Coding Principles to improve code quality​",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "15 Open-Source Projects That Changed the World​",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "9 Best Practices for Building Microservices​",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "8 Key Data Structures That Power Modern Databases​",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "10 years ago, Amazon found that every 100ms of latency cost them 1% in sales.​",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "25 Papers That Completely Transformed the Computer World.​",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "7 must-know strategies to scale your database.​",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "15 Open-Source Projects That Changed the World​",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "25 Papers That Completely Transformed the Computer World.​",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "10 Essential Components of a Production Web Application.​",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "11 steps to go from Junior to Senior Developer.​",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "4 Ways Netflix Uses Caching to Hold User Attention​",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "100X Postgres Scaling at Figma.​",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "18 Most-used Linux Commands You Should Know​",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "9 Essential Components of a Production Microservice Application​",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "10 Key Data Structures We Use Every Day​",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "8 Common System Design Problems and Solutions​",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "8 Tips for Efficient API Design.​",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "20 Popular Open Source Projects Started or Supported By Big Companies​",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "4 Popular GraphQL Adoption Patterns​",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "11 Things I learned about API Development from POST/CON 2024 by Postman.​",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "Big Endian vs Little Endian",
+            "page": 8
+        },
+        {
+            "level": "H3",
+            "text": "Little Endian​",
+            "page": 8
+        },
+        {
+            "level": "H3",
+            "text": "Big Endian​",
+            "page": 9
+        },
+        {
+            "level": "H2",
+            "text": "How do we incorporate Event Sourcing into the systems?",
+            "page": 10
+        },
+        {
+            "level": "H1",
+            "text": "1.​ New York Times ​",
+            "page": 10
+        },
+        {
+            "level": "H1",
+            "text": "2.​ CDC (Change Data Capture) ​",
+            "page": 10
+        },
+        {
+            "level": "H1",
+            "text": "3.​ Microservice Connector ​",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "How can Cache Systems go wrong",
+            "page": 12
+        },
+        {
+            "level": "H1",
+            "text": "1.​ Thunder herd problem​",
+            "page": 12
+        },
+        {
+            "level": "H1",
+            "text": "2.​ Cache penetration​",
+            "page": 13
+        },
+        {
+            "level": "H1",
+            "text": "3.​ Cache breakdown​",
+            "page": 13
+        },
+        {
+            "level": "H1",
+            "text": "4.​ Cache crash ​",
+            "page": 13
+        },
+        {
+            "level": "H1",
+            "text": "Linux file system explained",
+            "page": 14
+        },
+        {
+            "level": "H1",
+            "text": "My recommended materials for cracking your next technical",
+            "page": 15
+        },
+        {
+            "level": "H1",
+            "text": "interview",
+            "page": 15
+        },
+        {
+            "level": "H1",
+            "text": "How Git Commands work",
+            "page": 17
+        },
+        {
+            "level": "H1",
+            "text": "Top 4 Most Popular Use Cases for UDP",
+            "page": 18
+        },
+        {
+            "level": "H1",
+            "text": "How Does a Typical Push Notification System Work?",
+            "page": 19
+        },
+        {
+            "level": "H1",
+            "text": "How can Cache Systems go wrong?",
+            "page": 21
+        },
+        {
+            "level": "H1",
+            "text": "1. Thunder herd problem",
+            "page": 21
+        },
+        {
+            "level": "H1",
+            "text": "2. Cache penetration",
+            "page": 22
+        },
+        {
+            "level": "H1",
+            "text": "3. Cache breakdown",
+            "page": 22
+        },
+        {
+            "level": "H1",
+            "text": "4. Cache crash",
+            "page": 22
+        },
+        {
+            "level": "H1",
+            "text": "REST API Cheatsheet",
+            "page": 23
+        },
+        {
+            "level": "H1",
+            "text": "Top 8 Programming Paradigms - Part 1",
+            "page": 24
+        },
+        {
+            "level": "H2",
+            "text": "Data Pipelines Overview",
+            "page": 26
+        },
+        {
+            "level": "H1",
+            "text": "1.​ Collect:​",
+            "page": 26
+        },
+        {
+            "level": "H1",
+            "text": "2.​ Ingest:​",
+            "page": 26
+        },
+        {
+            "level": "H1",
+            "text": "3.​ Store:​",
+            "page": 26
+        },
+        {
+            "level": "H1",
+            "text": "4.​ Compute:​",
+            "page": 27
+        },
+        {
+            "level": "H1",
+            "text": "5.​ Consume:​",
+            "page": 27
+        },
+        {
+            "level": "H1",
+            "text": "API Vs SDK",
+            "page": 28
+        },
+        {
+            "level": "H1",
+            "text": "1.​ It defines how software components should interact.",
+            "page": 28
+        },
+        {
+            "level": "H1",
+            "text": "2.​ Facilitates data exchange and functionality access between software components.",
+            "page": 28
+        },
+        {
+            "level": "H1",
+            "text": "3.​ Typically consists of endpoints, requests, and responses.",
+            "page": 28
+        },
+        {
+            "level": "H1",
+            "text": "1.​ Offers higher-level abstractions, simplifying development for a specific platform.",
+            "page": 29
+        },
+        {
+            "level": "H1",
+            "text": "2.​ Tailored to specific platforms or frameworks, ensuring compatibility and optimal performance",
+            "page": 29
+        },
+        {
+            "level": "H1",
+            "text": "3.​ Offer access to advanced features and capabilities specific to the platform, which might be",
+            "page": 29
+        },
+        {
+            "level": "H1",
+            "text": "A handy cheat sheet for the most popular cloud services",
+            "page": 30
+        },
+        {
+            "level": "H1",
+            "text": "A nice cheat sheet of different monitoring infrastructure in",
+            "page": 31
+        },
+        {
+            "level": "H1",
+            "text": "cloud services",
+            "page": 31
+        },
+        {
+            "level": "H2",
+            "text": "REST API Vs. GraphQL",
+            "page": 33
+        },
+        {
+            "level": "H1",
+            "text": "Key Use Cases for Load Balancers",
+            "page": 35
+        },
+        {
+            "level": "H1",
+            "text": "Top 6 Firewall Use Cases",
+            "page": 37
+        },
+        {
+            "level": "H1",
+            "text": "Types of memory. Which ones do you know?",
+            "page": 39
+        },
+        {
+            "level": "H1",
+            "text": "1.​ Registers: ​",
+            "page": 39
+        },
+        {
+            "level": "H1",
+            "text": "2.​ Caches: ​",
+            "page": 39
+        },
+        {
+            "level": "H1",
+            "text": "3.​ Main Memory (RAM): ​",
+            "page": 40
+        },
+        {
+            "level": "H1",
+            "text": "4.​ Solid-State Drives (SSDs): ​",
+            "page": 40
+        },
+        {
+            "level": "H1",
+            "text": "5.​ Hard Disk Drives (HDDs): ​",
+            "page": 40
+        },
+        {
+            "level": "H1",
+            "text": "6.​ Remote Secondary Storage: ​",
+            "page": 40
+        },
+        {
+            "level": "H1",
+            "text": "How Do C++, Java, Python Work?",
+            "page": 41
+        },
+        {
+            "level": "H1",
+            "text": "Top 6 Load Balancing Algorithms",
+            "page": 42
+        },
+        {
+            "level": "H3",
+            "text": "Static Algorithms",
+            "page": 42
+        },
+        {
+            "level": "H1",
+            "text": "1.​ Round robin​",
+            "page": 42
+        },
+        {
+            "level": "H1",
+            "text": "2.​ Sticky round-robin​",
+            "page": 42
+        },
+        {
+            "level": "H1",
+            "text": "3.​ Weighted round-robin​",
+            "page": 42
+        },
+        {
+            "level": "H1",
+            "text": "4.​ Hash​",
+            "page": 42
+        },
+        {
+            "level": "H3",
+            "text": "Dynamic Algorithms",
+            "page": 42
+        },
+        {
+            "level": "H1",
+            "text": "5.​ Least connections​",
+            "page": 43
+        },
+        {
+            "level": "H1",
+            "text": "6.​ Least response time​",
+            "page": 43
+        },
+        {
+            "level": "H1",
+            "text": "How does Git work?",
+            "page": 44
+        },
+        {
+            "level": "H1",
+            "text": "HTTP Cookies Explained With a Simple Diagram",
+            "page": 45
+        },
+        {
+            "level": "H1",
+            "text": "1.​ HTTP is like a goldfish with no memory - it forgets you instantly! But cookies swoop in to the",
+            "page": 45
+        },
+        {
+            "level": "H1",
+            "text": "2.​ Cookies? Think of them as little notes you pass to the web server, saying, \"Remember me,",
+            "page": 45
+        },
+        {
+            "level": "H1",
+            "text": "3.​ Browsers are like cookie bouncers, making sure your cookies don't party crash at the wrong",
+            "page": 45
+        },
+        {
+            "level": "H1",
+            "text": "How does a ChatGPT-like system work?",
+            "page": 46
+        },
+        {
+            "level": "H1",
+            "text": "1.​ Training. To train a ChatGPT model, there are two stages:",
+            "page": 47
+        },
+        {
+            "level": "H1",
+            "text": "1.​ Collect training data (questions and answers), and fine-tune the pre-trained",
+            "page": 47
+        },
+        {
+            "level": "H1",
+            "text": "2.​ Collect more data (question, several answers) and train a reward model to",
+            "page": 47
+        },
+        {
+            "level": "H1",
+            "text": "3.​ Use reinforcement learning (PPO optimization) to fine-tune the model so the",
+            "page": 47
+        },
+        {
+            "level": "H1",
+            "text": "2.    Answer a prompt",
+            "page": 47
+        },
+        {
+            "level": "H1",
+            "text": "A cheat sheet for system designs",
+            "page": 48
+        },
+        {
+            "level": "H1",
+            "text": "Cloud Disaster Recovery Strategies",
+            "page": 50
+        },
+        {
+            "level": "H1",
+            "text": "1.​ Backup and Restore Strategy:",
+            "page": 51
+        },
+        {
+            "level": "H1",
+            "text": "2.​ Pilot Light Approach:",
+            "page": 51
+        },
+        {
+            "level": "H1",
+            "text": "3.​ Warm Standby Solution:",
+            "page": 51
+        },
+        {
+            "level": "H1",
+            "text": "4.​ Hot Site / Multi-Site Configuration:",
+            "page": 51
+        },
+        {
+            "level": "H1",
+            "text": "Visualizing a SQL query",
+            "page": 52
+        },
+        {
+            "level": "H1",
+            "text": "How does REST API work?",
+            "page": 53
+        },
+        {
+            "level": "H1",
+            "text": "Explaining 9 types of API testing",
+            "page": 54
+        },
+        {
+            "level": "H1",
+            "text": "Git Merge vs. Rebase vs.Squash Commit!",
+            "page": 56
+        },
+        {
+            "level": "H2",
+            "text": "What is a cookie?",
+            "page": 58
+        },
+        {
+            "level": "H1",
+            "text": "How does a VPN work?",
+            "page": 60
+        },
+        {
+            "level": "H1",
+            "text": "Top Software Architectural Styles",
+            "page": 62
+        },
+        {
+            "level": "H1",
+            "text": "Understanding Database Types",
+            "page": 64
+        },
+        {
+            "level": "H1",
+            "text": "Cloud Security Cheat Sheet  ​",
+            "page": 65
+        },
+        {
+            "level": "H1",
+            "text": "GitOps Workflow - Simplified Visual Guide",
+            "page": 67
+        },
+        {
+            "level": "H1",
+            "text": "1.​ Version Control and Collaboration:​",
+            "page": 68
+        },
+        {
+            "level": "H1",
+            "text": "2.​ Declarative System:​",
+            "page": 68
+        },
+        {
+            "level": "H1",
+            "text": "3.​ Automated Delivery:​",
+            "page": 68
+        },
+        {
+            "level": "H1",
+            "text": "4.​ Immutable Infrastructure:​",
+            "page": 68
+        },
+        {
+            "level": "H1",
+            "text": "5.​ Observability and Feedback:​",
+            "page": 68
+        },
+        {
+            "level": "H1",
+            "text": "6.​ Security and Compliance:​",
+            "page": 68
+        },
+        {
+            "level": "H1",
+            "text": "How does “scan to pay” work?",
+            "page": 69
+        },
+        {
+            "level": "H1",
+            "text": "1.​ Merchant generates a QR code and displays it on the screen",
+            "page": 69
+        },
+        {
+            "level": "H1",
+            "text": "2.​ Consumer scans the QR code and pays",
+            "page": 69
+        },
+        {
+            "level": "H1",
+            "text": "1.​ When you want to pay for your shopping, the cashier tallies up all the goods and calculates",
+            "page": 70
+        },
+        {
+            "level": "H1",
+            "text": "4.​ PSP’s Payment Gateway service reads the QR code URL.",
+            "page": 70
+        },
+        {
+            "level": "H1",
+            "text": "7.​ The checkout counter displays the QR code.",
+            "page": 70
+        },
+        {
+            "level": "H1",
+            "text": "4.​ The PSP payment gateway marks this QR code as paid and returns a success message to",
+            "page": 70
+        },
+        {
+            "level": "H1",
+            "text": "5.​ The PSP payment gateway notifies the merchant that the consumer has paid the given QR",
+            "page": 70
+        },
+        {
+            "level": "H1",
+            "text": "How do Search Engines Work?",
+            "page": 71
+        },
+        {
+            "level": "H1",
+            "text": "The Payments Ecosystem",
+            "page": 73
+        },
+        {
+            "level": "H1",
+            "text": "Object-oriented Programming: A Primer",
+            "page": 75
+        },
+        {
+            "level": "H3",
+            "text": "Abstraction",
+            "page": 75
+        },
+        {
+            "level": "H1",
+            "text": "Where do we cache data?",
+            "page": 76
+        },
+        {
+            "level": "H1",
+            "text": "1.​ Client apps: HTTP responses can be cached by the browser. We request data over HTTP for",
+            "page": 76
+        },
+        {
+            "level": "H1",
+            "text": "2.​ CDN: CDN caches static web resources. The clients can retrieve data from a CDN node",
+            "page": 76
+        },
+        {
+            "level": "H1",
+            "text": "3.​ Load Balancer: The load Balancer can cache resources as well.",
+            "page": 76
+        },
+        {
+            "level": "H1",
+            "text": "4.​ Messaging infra: Message brokers store messages on disk first, and then consumers",
+            "page": 77
+        },
+        {
+            "level": "H1",
+            "text": "5.​ Services: There are multiple layers of cache in a service. If the data is not cached in the CPU",
+            "page": 77
+        },
+        {
+            "level": "H1",
+            "text": "6.​ Distributed Cache: Distributed cache like Redis hold key-value pairs for multiple services in",
+            "page": 77
+        },
+        {
+            "level": "H1",
+            "text": "7.​ Full-text Search: we sometimes need to use full-text searches like Elastic Search for",
+            "page": 77
+        },
+        {
+            "level": "H1",
+            "text": "8.​ Database: Even in the database, we have different levels of caches:",
+            "page": 77
+        },
+        {
+            "level": "H1",
+            "text": "Flowchart of how slack decides to send a notification",
+            "page": 78
+        },
+        {
+            "level": "H1",
+            "text": "What is the best way to learn SQL?",
+            "page": 79
+        },
+        {
+            "level": "H1",
+            "text": "What is gRPC?",
+            "page": 80
+        },
+        {
+            "level": "H1",
+            "text": "1.​ Protocol Buffers: By default, gRPC uses Protocol Buffers (proto files) as its interface",
+            "page": 80
+        },
+        {
+            "level": "H1",
+            "text": "2.​ HTTP/2 Based Transport: gRPC uses HTTP/2 for transport, which allows for many",
+            "page": 80
+        },
+        {
+            "level": "H1",
+            "text": "3.​ Multiple Language Support: gRPC supports a wide range of programming languages.",
+            "page": 80
+        },
+        {
+            "level": "H1",
+            "text": "4.​ Bi-Directional Streaming: gRPC supports streaming requests and responses, allowing for the",
+            "page": 81
+        },
+        {
+            "level": "H1",
+            "text": "How do live streaming platforms like YouTube Live, TikTok",
+            "page": 82
+        },
+        {
+            "level": "H1",
+            "text": "Live, or Twitch work?  ​",
+            "page": 82
+        },
+        {
+            "level": "H1",
+            "text": "Linux Boot Process Illustrated",
+            "page": 84
+        },
+        {
+            "level": "H1",
+            "text": "How does Visa make money?",
+            "page": 86
+        },
+        {
+            "level": "H1",
+            "text": "1. The cardholder pays a merchant $100 to buy a product.",
+            "page": 86
+        },
+        {
+            "level": "H1",
+            "text": "2. The merchant benefits from the use of the credit card with higher sales volume, and needs to",
+            "page": 86
+        },
+        {
+            "level": "H1",
+            "text": "3 - 4. The acquiring bank keeps $0.25 as the  𝐚𝐜𝐪𝐮𝐢𝐫𝐢𝐧𝐠   𝐦𝐚𝐫𝐤𝐮𝐩 , and $1.75 is paid to the issuing",
+            "page": 87
+        },
+        {
+            "level": "H1",
+            "text": "5. The card network sets up the  𝐧𝐞𝐭𝐰𝐨𝐫𝐤   𝐚𝐬𝐬𝐞𝐬𝐬𝐦𝐞𝐧𝐭𝐬   𝐚𝐧𝐝   𝐟𝐞𝐞𝐬  with each bank, which pays the card",
+            "page": 87
+        },
+        {
+            "level": "H1",
+            "text": "6. The cardholder pays the issuing bank for its services.",
+            "page": 87
+        },
+        {
+            "level": "H1",
+            "text": "Session, Cookie, JWT, Token, SSO, and OAuth 2.0 Explained",
+            "page": 88
+        },
+        {
+            "level": "H1",
+            "text": "in One Diagram",
+            "page": 88
+        },
+        {
+            "level": "H1",
+            "text": "How do we manage configurations in a system?",
+            "page": 90
+        },
+        {
+            "level": "H1",
+            "text": "What is CSS (Cascading Style Sheets)?",
+            "page": 92
+        },
+        {
+            "level": "H1",
+            "text": "What is GraphQL? Is it a replacement for the REST API?",
+            "page": 94
+        },
+        {
+            "level": "H1",
+            "text": "1.​ GraphQL is more efficient in data fetching.",
+            "page": 95
+        },
+        {
+            "level": "H1",
+            "text": "2.​ GraphQL returns more accurate results.",
+            "page": 95
+        },
+        {
+            "level": "H1",
+            "text": "4.​ GraphQL is suitable for managing complex microservices.",
+            "page": 95
+        },
+        {
+            "level": "H1",
+            "text": "System Design Blueprint: The Ultimate Guide",
+            "page": 96
+        },
+        {
+            "level": "H3",
+            "text": "This briefly touches on the following discussion points:",
+            "page": 96
+        },
+        {
+            "level": "H1",
+            "text": "Polling Vs Webhooks",
+            "page": 98
+        },
+        {
+            "level": "H1",
+            "text": "How are notifications pushed to our phones or PCs?",
+            "page": 100
+        },
+        {
+            "level": "H1",
+            "text": "9 best practices for developing microservices",
+            "page": 102
+        },
+        {
+            "level": "H1",
+            "text": "1.​ Use separate data storage for each microservice",
+            "page": 102
+        },
+        {
+            "level": "H1",
+            "text": "2.​ Keep code at a similar level of maturity",
+            "page": 102
+        },
+        {
+            "level": "H1",
+            "text": "3.​ Separate build for each microservice",
+            "page": 102
+        },
+        {
+            "level": "H1",
+            "text": "4.​ Assign each microservice with a single responsibility",
+            "page": 102
+        },
+        {
+            "level": "H1",
+            "text": "5.​ Deploy into containers",
+            "page": 102
+        },
+        {
+            "level": "H1",
+            "text": "6.​ Design stateless services",
+            "page": 102
+        },
+        {
+            "level": "H1",
+            "text": "7.​ Adopt domain-driven design",
+            "page": 102
+        },
+        {
+            "level": "H1",
+            "text": "8.​ Design micro frontend",
+            "page": 102
+        },
+        {
+            "level": "H1",
+            "text": "9.​ Orchestrating microservices",
+            "page": 102
+        },
+        {
+            "level": "H1",
+            "text": "Oauth 2.0 Explained With Simple Terms",
+            "page": 103
+        },
+        {
+            "level": "H1",
+            "text": "How do companies ship code to production?",
+            "page": 105
+        },
+        {
+            "level": "H1",
+            "text": "How do we manage sensitive data in a system?",
+            "page": 107
+        },
+        {
+            "level": "H1",
+            "text": "Cloud Load Balancer Cheat Sheet",
+            "page": 109
+        },
+        {
+            "level": "H1",
+            "text": "What does ACID mean?",
+            "page": 111
+        },
+        {
+            "level": "H1",
+            "text": "CAP, BASE, SOLID, KISS, What do these acronyms mean?",
+            "page": 113
+        },
+        {
+            "level": "H1",
+            "text": "2. Availability - Every request receives a response.",
+            "page": 113
+        },
+        {
+            "level": "H1",
+            "text": "3. Partition tolerance - The system continues to operate in network faults.",
+            "page": 113
+        },
+        {
+            "level": "H1",
+            "text": "1. SRP (Single Responsibility Principle)",
+            "page": 114
+        },
+        {
+            "level": "H1",
+            "text": "2. OCP (Open Close Principle)",
+            "page": 114
+        },
+        {
+            "level": "H1",
+            "text": "3. LSP (Liskov Substitution Principle)",
+            "page": 114
+        },
+        {
+            "level": "H1",
+            "text": "4. ISP (Interface Segregation Principle)",
+            "page": 114
+        },
+        {
+            "level": "H1",
+            "text": "5. DIP (Dependency Inversion Principle)",
+            "page": 114
+        },
+        {
+            "level": "H1",
+            "text": "System Design cheat sheet",
+            "page": 115
+        },
+        {
+            "level": "H1",
+            "text": "1.​ High Availability​",
+            "page": 115
+        },
+        {
+            "level": "H1",
+            "text": "2.​ High Throughput​",
+            "page": 116
+        },
+        {
+            "level": "H1",
+            "text": "3.​ High Scalability​",
+            "page": 116
+        },
+        {
+            "level": "H1",
+            "text": "How will you design the Stack Overflow website?",
+            "page": 117
+        },
+        {
+            "level": "H1",
+            "text": "1.​ Microservice is used to decompose the system into small components.",
+            "page": 117
+        },
+        {
+            "level": "H1",
+            "text": "2.​ Each service has its own database. Use cache heavily.",
+            "page": 117
+        },
+        {
+            "level": "H1",
+            "text": "3.​ The service is sharded.",
+            "page": 117
+        },
+        {
+            "level": "H1",
+            "text": "4.​ The services talk to each other asynchronously through message queues.",
+            "page": 117
+        },
+        {
+            "level": "H1",
+            "text": "5.​ The service is implemented using Event Sourcing with CQRS.",
+            "page": 117
+        },
+        {
+            "level": "H1",
+            "text": "6.​ Showing off knowledge in distributed systems such as eventual consistency, CAP theorem,",
+            "page": 117
+        },
+        {
+            "level": "H1",
+            "text": "A nice cheat sheet of different cloud services",
+            "page": 119
+        },
+        {
+            "level": "H1",
+            "text": "The one-line change that reduced clone times by a whopping",
+            "page": 121
+        },
+        {
+            "level": "H1",
+            "text": "99%, says Pinterest",
+            "page": 121
+        },
+        {
+            "level": "H1",
+            "text": "350K commits",
+            "page": 122
+        },
+        {
+            "level": "H1",
+            "text": "20 GB in size when cloned fully",
+            "page": 122
+        },
+        {
+            "level": "H1",
+            "text": "60K git pulls on every business day",
+            "page": 122
+        },
+        {
+            "level": "H1",
+            "text": "Best ways to test system functionality",
+            "page": 123
+        },
+        {
+            "level": "H1",
+            "text": "1.​ Unit Testing: Ensures individual code components work correctly in isolation.",
+            "page": 123
+        },
+        {
+            "level": "H1",
+            "text": "2.​ Integration Testing: Verifies that different system parts function seamlessly together.",
+            "page": 123
+        },
+        {
+            "level": "H1",
+            "text": "3.​ System Testing: Assesses the entire system's compliance with user requirements and",
+            "page": 124
+        },
+        {
+            "level": "H1",
+            "text": "4.​ Load Testing: Tests a system's ability to handle high workloads and identifies performance",
+            "page": 124
+        },
+        {
+            "level": "H1",
+            "text": "6.​ Test Automation: Automates test case execution for efficiency, repeatability, and error",
+            "page": 124
+        },
+        {
+            "level": "H1",
+            "text": "Encoding vs Encryption vs Tokenization ​",
+            "page": 125
+        },
+        {
+            "level": "H1",
+            "text": "Kubernetes Tools Stack Wheel",
+            "page": 127
+        },
+        {
+            "level": "H1",
+            "text": "How does Docker work?",
+            "page": 129
+        },
+        {
+            "level": "H1",
+            "text": "1.​ Docker pulls the image from the registry.",
+            "page": 130
+        },
+        {
+            "level": "H1",
+            "text": "2.​ Docker creates a new container.",
+            "page": 130
+        },
+        {
+            "level": "H1",
+            "text": "3.​ Docker allocates a read-write filesystem to the container.",
+            "page": 130
+        },
+        {
+            "level": "H1",
+            "text": "5.​ Docker starts the container.",
+            "page": 130
+        },
+        {
+            "level": "H1",
+            "text": "Top 6 Database Models",
+            "page": 131
+        },
+        {
+            "level": "H1",
+            "text": "How do we detect node failures in distributed systems?",
+            "page": 133
+        },
+        {
+            "level": "H1",
+            "text": "10 Good Coding Principles to improve code quality",
+            "page": 135
+        },
+        {
+            "level": "H1",
+            "text": "1.​ Follow Code Specifications​",
+            "page": 135
+        },
+        {
+            "level": "H1",
+            "text": "8”, “Google Java Style”, adhering to a set of agreed-upon code specifications ensures that",
+            "page": 135
+        },
+        {
+            "level": "H1",
+            "text": "2.​ Documentation and Comments​",
+            "page": 136
+        },
+        {
+            "level": "H1",
+            "text": "3.​ Robustness​",
+            "page": 136
+        },
+        {
+            "level": "H1",
+            "text": "4.​ Follow the SOLID principle​",
+            "page": 136
+        },
+        {
+            "level": "H1",
+            "text": "5.​ Make Testing Easy​",
+            "page": 136
+        },
+        {
+            "level": "H1",
+            "text": "6.​ Abstraction​",
+            "page": 136
+        },
+        {
+            "level": "H1",
+            "text": "7.​ Utilize Design Patterns, but don't over-design​",
+            "page": 136
+        },
+        {
+            "level": "H1",
+            "text": "8.​ Reduce Global Dependencies​",
+            "page": 136
+        },
+        {
+            "level": "H1",
+            "text": "9.​ Continuous Refactoring​",
+            "page": 136
+        },
+        {
+            "level": "H1",
+            "text": "10.​Security is a Top Priority​",
+            "page": 136
+        },
+        {
+            "level": "H1",
+            "text": "15 Open-Source Projects That Changed the World",
+            "page": 137
+        },
+        {
+            "level": "H1",
+            "text": "Reverse proxy vs. API gateway vs. load balancer ​",
+            "page": 139
+        },
+        {
+            "level": "H1",
+            "text": "Linux Performance Observability Tools",
+            "page": 141
+        },
+        {
+            "level": "H1",
+            "text": "Top 9 website performance metrics you cannot ignore",
+            "page": 142
+        },
+        {
+            "level": "H1",
+            "text": "How do we manage data?",
+            "page": 144
+        },
+        {
+            "level": "H1",
+            "text": "Comparing Different API Clients: Postman vs. Insomnia vs.",
+            "page": 146
+        },
+        {
+            "level": "H1",
+            "text": "ReadyAPI vs. Thunder Client vs. Hoppscotch",
+            "page": 146
+        },
+        {
+            "level": "H1",
+            "text": "How does gRPC work? ​",
+            "page": 148
+        },
+        {
+            "level": "H1",
+            "text": "Have you heard of the 12-Factor App?",
+            "page": 152
+        },
+        {
+            "level": "H1",
+            "text": "1.​ Codebase:​",
+            "page": 152
+        },
+        {
+            "level": "H1",
+            "text": "2.​ Dependencies:​",
+            "page": 153
+        },
+        {
+            "level": "H1",
+            "text": "3.​ Config:​",
+            "page": 153
+        },
+        {
+            "level": "H1",
+            "text": "4.​ Backing Services:​",
+            "page": 153
+        },
+        {
+            "level": "H1",
+            "text": "5.​ Build, Release, Run:​",
+            "page": 153
+        },
+        {
+            "level": "H1",
+            "text": "6.​ Processes:​",
+            "page": 153
+        },
+        {
+            "level": "H1",
+            "text": "7.​ Port Binding:​",
+            "page": 153
+        },
+        {
+            "level": "H1",
+            "text": "8.​ Concurrency:​",
+            "page": 153
+        },
+        {
+            "level": "H1",
+            "text": "9.​ Disposability:​",
+            "page": 153
+        },
+        {
+            "level": "H1",
+            "text": "10.​Dev/Prod Parity:​",
+            "page": 153
+        },
+        {
+            "level": "H1",
+            "text": "11.​Logs:​",
+            "page": 153
+        },
+        {
+            "level": "H1",
+            "text": "12.​Admin Processes:​",
+            "page": 153
+        },
+        {
+            "level": "H1",
+            "text": "How does Redis architecture evolve?",
+            "page": 154
+        },
+        {
+            "level": "H1",
+            "text": "Cloud Cost Reduction Techniques",
+            "page": 156
+        },
+        {
+            "level": "H1",
+            "text": "1. Reduce Usage:",
+            "page": 156
+        },
+        {
+            "level": "H1",
+            "text": "2. Terminate Idle Resources:",
+            "page": 157
+        },
+        {
+            "level": "H1",
+            "text": "3. Right Sizing:",
+            "page": 157
+        },
+        {
+            "level": "H1",
+            "text": "4. Shutdown Resources During Off-Peak Times:",
+            "page": 157
+        },
+        {
+            "level": "H1",
+            "text": "5. Reserve to Reduce Rate:",
+            "page": 157
+        },
+        {
+            "level": "H1",
+            "text": "6. Optimize Data Transfers:",
+            "page": 157
+        },
+        {
+            "level": "H1",
+            "text": "Linux file permission illustrated ​",
+            "page": 158
+        },
+        {
+            "level": "H1",
+            "text": "There are over 1,000 engineering blogs. Here are my top 9",
+            "page": 159
+        },
+        {
+            "level": "H1",
+            "text": "favorites",
+            "page": 159
+        },
+        {
+            "level": "H1",
+            "text": "9 Best Practices for Building Microservices",
+            "page": 161
+        },
+        {
+            "level": "H1",
+            "text": "1 - Design For Failure",
+            "page": 161
+        },
+        {
+            "level": "H1",
+            "text": "2 - Build Small Services",
+            "page": 162
+        },
+        {
+            "level": "H1",
+            "text": "3 - Use lightweight protocols for communication",
+            "page": 162
+        },
+        {
+            "level": "H1",
+            "text": "4 - Implement service discovery",
+            "page": 162
+        },
+        {
+            "level": "H1",
+            "text": "5 - Data Ownership",
+            "page": 162
+        },
+        {
+            "level": "H1",
+            "text": "6 - Use resiliency patterns",
+            "page": 162
+        },
+        {
+            "level": "H1",
+            "text": "7 - Security at all levels",
+            "page": 162
+        },
+        {
+            "level": "H1",
+            "text": "8 - Centralized logging",
+            "page": 162
+        },
+        {
+            "level": "H1",
+            "text": "9 - Use containerization techniques",
+            "page": 162
+        },
+        {
+            "level": "H1",
+            "text": "Roadmap for Learning Cyber Security",
+            "page": 163
+        },
+        {
+            "level": "H1",
+            "text": "How does Javascript Work?",
+            "page": 164
+        },
+        {
+            "level": "H1",
+            "text": "Can Kafka Lose Messages?",
+            "page": 166
+        },
+        {
+            "level": "H1",
+            "text": "1. Application thread",
+            "page": 167
+        },
+        {
+            "level": "H1",
+            "text": "2. Record accumulator",
+            "page": 167
+        },
+        {
+            "level": "H1",
+            "text": "3. Sender thread (I/O thread)",
+            "page": 167
+        },
+        {
+            "level": "H1",
+            "text": "1. The messages are usually flushed to the disk asynchronously for higher I/O throughput, so if the",
+            "page": 167
+        },
+        {
+            "level": "H1",
+            "text": "You're Decent at Linux if You Know What Those Directories",
+            "page": 168
+        },
+        {
+            "level": "H1",
+            "text": "Mean :)",
+            "page": 168
+        },
+        {
+            "level": "H1",
+            "text": "Netflix's Tech Stack",
+            "page": 170
+        },
+        {
+            "level": "H1",
+            "text": "Top 5 Kafka use cases",
+            "page": 172
+        },
+        {
+            "level": "H1",
+            "text": "Top 6 Cloud Messaging Patterns.",
+            "page": 174
+        },
+        {
+            "level": "H1",
+            "text": "How Netflix Really Uses Java?",
+            "page": 176
+        },
+        {
+            "level": "H1",
+            "text": "1 - API Gateway",
+            "page": 177
+        },
+        {
+            "level": "H1",
+            "text": "2 - BFFs with Groovy & RxJava",
+            "page": 177
+        },
+        {
+            "level": "H1",
+            "text": "3 - GraphQL Federation",
+            "page": 177
+        },
+        {
+            "level": "H1",
+            "text": "Top 9 Architectural Patterns for Data and Communication",
+            "page": 178
+        },
+        {
+            "level": "H1",
+            "text": "Flow",
+            "page": 178
+        },
+        {
+            "level": "H1",
+            "text": "What Are the Most Important AWS Services To Learn?",
+            "page": 180
+        },
+        {
+            "level": "H1",
+            "text": "8 Key Data Structures That Power Modern Databases",
+            "page": 182
+        },
+        {
+            "level": "H1",
+            "text": "How do we design effective and safe APIs?",
+            "page": 183
+        },
+        {
+            "level": "H1",
+            "text": "Who are the Fantastic Four of System Design?",
+            "page": 184
+        },
+        {
+            "level": "H1",
+            "text": "1 - Scalability",
+            "page": 184
+        },
+        {
+            "level": "H1",
+            "text": "2 - Availability",
+            "page": 185
+        },
+        {
+            "level": "H1",
+            "text": "3 - Reliability",
+            "page": 185
+        },
+        {
+            "level": "H1",
+            "text": "4 - Performance",
+            "page": 185
+        },
+        {
+            "level": "H1",
+            "text": "How do we design a secure system?",
+            "page": 186
+        },
+        {
+            "level": "H1",
+            "text": "Things Every Developer Should Know: Concurrency is NOT",
+            "page": 188
+        },
+        {
+            "level": "H1",
+            "text": "parallelism.",
+            "page": 188
+        },
+        {
+            "level": "H1",
+            "text": "HTTPS, SSL Handshake, and Data Encryption Explained to",
+            "page": 190
+        },
+        {
+            "level": "H1",
+            "text": "Kids.",
+            "page": 190
+        },
+        {
+            "level": "H1",
+            "text": "Top 5 Software Architectural Patterns",
+            "page": 192
+        },
+        {
+            "level": "H1",
+            "text": "Top 6 Tools to Turn Code into Beautiful Diagrams",
+            "page": 194
+        },
+        {
+            "level": "H1",
+            "text": "Everything is a trade-off.",
+            "page": 195
+        },
+        {
+            "level": "H1",
+            "text": "What is DevSecOps?",
+            "page": 197
+        },
+        {
+            "level": "H1",
+            "text": "1 . Automated Security Checks",
+            "page": 198
+        },
+        {
+            "level": "H1",
+            "text": "2 . Continuous Monitoring",
+            "page": 198
+        },
+        {
+            "level": "H1",
+            "text": "3 . CI/CD Automation",
+            "page": 198
+        },
+        {
+            "level": "H1",
+            "text": "4 . Infrastructure as Code (IaC)",
+            "page": 198
+        },
+        {
+            "level": "H1",
+            "text": "5 . Container Security",
+            "page": 198
+        },
+        {
+            "level": "H1",
+            "text": "6 . Secret Management",
+            "page": 198
+        },
+        {
+            "level": "H1",
+            "text": "7 . Threat Modeling",
+            "page": 198
+        },
+        {
+            "level": "H1",
+            "text": "8. Quality Assurance (QA) Integration",
+            "page": 198
+        },
+        {
+            "level": "H1",
+            "text": "9 . Collaboration and Communication",
+            "page": 198
+        },
+        {
+            "level": "H1",
+            "text": "10 . Vulnerability Management",
+            "page": 198
+        },
+        {
+            "level": "H1",
+            "text": "Top 8 Cache Eviction Strategies.",
+            "page": 199
+        },
+        {
+            "level": "H1",
+            "text": "Linux Boot Process Explained",
+            "page": 201
+        },
+        {
+            "level": "H1",
+            "text": "Unusual Evolution of the Netflix API Architecture",
+            "page": 203
+        },
+        {
+            "level": "H3",
+            "text": "References:",
+            "page": 204
+        },
+        {
+            "level": "H1",
+            "text": "GET, POST, PUT... Common HTTP “verbs” in one figure",
+            "page": 205
+        },
+        {
+            "level": "H1",
+            "text": "1. HTTP GET",
+            "page": 205
+        },
+        {
+            "level": "H1",
+            "text": "2. HTTP PUT",
+            "page": 205
+        },
+        {
+            "level": "H1",
+            "text": "3. HTTP POST",
+            "page": 205
+        },
+        {
+            "level": "H1",
+            "text": "4. HTTP DELETE",
+            "page": 206
+        },
+        {
+            "level": "H1",
+            "text": "5. HTTP PATCH",
+            "page": 206
+        },
+        {
+            "level": "H1",
+            "text": "6. HTTP HEAD",
+            "page": 206
+        },
+        {
+            "level": "H1",
+            "text": "7. HTTP CONNECT",
+            "page": 206
+        },
+        {
+            "level": "H1",
+            "text": "8. HTTP OPTIONS",
+            "page": 206
+        },
+        {
+            "level": "H1",
+            "text": "9. HTTP TRACE",
+            "page": 206
+        },
+        {
+            "level": "H1",
+            "text": "Top 8 C++ Use Cases",
+            "page": 207
+        },
+        {
+            "level": "H1",
+            "text": "Top 4 data sharding algorithms explained.",
+            "page": 209
+        },
+        {
+            "level": "H1",
+            "text": "10 years ago, Amazon found that every 100ms of latency cost",
+            "page": 211
+        },
+        {
+            "level": "H1",
+            "text": "them 1% in sales.",
+            "page": 211
+        },
+        {
+            "level": "H1",
+            "text": "1 - Database Indexing",
+            "page": 212
+        },
+        {
+            "level": "H1",
+            "text": "2 - Caching",
+            "page": 212
+        },
+        {
+            "level": "H1",
+            "text": "3 - Load Balancing",
+            "page": 212
+        },
+        {
+            "level": "H1",
+            "text": "4 - Content Delivery Network",
+            "page": 212
+        },
+        {
+            "level": "H1",
+            "text": "5 - Async Processing",
+            "page": 212
+        },
+        {
+            "level": "H1",
+            "text": "6 - Data Compression",
+            "page": 212
+        },
+        {
+            "level": "H1",
+            "text": "Load Balancer Realistic Use Cases You May Not Know",
+            "page": 213
+        },
+        {
+            "level": "H1",
+            "text": "1. Failure Handling:",
+            "page": 213
+        },
+        {
+            "level": "H1",
+            "text": "2. Instance Health Checks:",
+            "page": 213
+        },
+        {
+            "level": "H1",
+            "text": "3. Platform Specific Routing:",
+            "page": 213
+        },
+        {
+            "level": "H1",
+            "text": "4. SSL Termination:",
+            "page": 214
+        },
+        {
+            "level": "H1",
+            "text": "5. Cross Zone Load Balancing:",
+            "page": 214
+        },
+        {
+            "level": "H1",
+            "text": "6. User Stickiness:",
+            "page": 214
+        },
+        {
+            "level": "H1",
+            "text": "25 Papers That Completely Transformed the Computer",
+            "page": 215
+        },
+        {
+            "level": "H1",
+            "text": "World.",
+            "page": 215
+        },
+        {
+            "level": "H1",
+            "text": "1. Dynamo - Amazon’s Highly Available Key Value Store",
+            "page": 215
+        },
+        {
+            "level": "H1",
+            "text": "2. Google File System: Insights into a highly scalable file system",
+            "page": 215
+        },
+        {
+            "level": "H1",
+            "text": "3. Scaling Memcached at Facebook: A look at the complexities of Caching",
+            "page": 215
+        },
+        {
+            "level": "H1",
+            "text": "4. BigTable: The design principles behind a distributed storage system",
+            "page": 215
+        },
+        {
+            "level": "H1",
+            "text": "5. Borg - Large Scale Cluster Management at Google",
+            "page": 215
+        },
+        {
+            "level": "H1",
+            "text": "6. Cassandra: A look at the design and architecture of a distributed NoSQL database",
+            "page": 216
+        },
+        {
+            "level": "H1",
+            "text": "7. Attention Is All You Need: Into a new deep learning architecture known as the transformer",
+            "page": 216
+        },
+        {
+            "level": "H1",
+            "text": "8. Kafka: Internals of the distributed messaging platform",
+            "page": 216
+        },
+        {
+            "level": "H1",
+            "text": "9. FoundationDB: A look at how a distributed database",
+            "page": 216
+        },
+        {
+            "level": "H1",
+            "text": "10. Amazon Aurora: To learn how Amazon provides high-availability and performance",
+            "page": 216
+        },
+        {
+            "level": "H1",
+            "text": "11. Spanner: Design and architecture of Google’s globally distributed databas",
+            "page": 216
+        },
+        {
+            "level": "H1",
+            "text": "12. MapReduce: A detailed look at how MapReduce enables parallel processing of massive volumes",
+            "page": 216
+        },
+        {
+            "level": "H1",
+            "text": "13. Shard Manager: Understanding the generic shard management framework",
+            "page": 216
+        },
+        {
+            "level": "H1",
+            "text": "14. Dapper: Insights into Google’s distributed systems tracing infrastructure",
+            "page": 216
+        },
+        {
+            "level": "H1",
+            "text": "15. Flink: A detailed look at the unified architecture of stream and batch processing",
+            "page": 216
+        },
+        {
+            "level": "H1",
+            "text": "16. A Comprehensive Survey on Vector Databases",
+            "page": 216
+        },
+        {
+            "level": "H1",
+            "text": "17. Zanzibar: A look at the design, implementation and deployment of a global system for managing",
+            "page": 216
+        },
+        {
+            "level": "H1",
+            "text": "18. Monarch: Architecture of Google’s in-memory time series database",
+            "page": 216
+        },
+        {
+            "level": "H1",
+            "text": "19. Thrift: Explore the design choices behind Facebook’s code-generation tool",
+            "page": 216
+        },
+        {
+            "level": "H1",
+            "text": "20. Bitcoin: The ground-breaking introduction to the peer-to-peer electronic cash system",
+            "page": 216
+        },
+        {
+            "level": "H1",
+            "text": "21. WTF - Who to Follow Service at Twitter: Twitter’s (now X) user recommendation system",
+            "page": 216
+        },
+        {
+            "level": "H1",
+            "text": "22. MyRocks: LSM-Tree Database Storage Engine",
+            "page": 216
+        },
+        {
+            "level": "H1",
+            "text": "23. GoTo Considered Harmful",
+            "page": 216
+        },
+        {
+            "level": "H1",
+            "text": "24. Raft Consensus Algorithm: To learn about the more understandable consensus algorithm",
+            "page": 216
+        },
+        {
+            "level": "H1",
+            "text": "25. Time Clocks and Ordering of Events: The extremely important paper that explains the concept of",
+            "page": 216
+        },
+        {
+            "level": "H1",
+            "text": "IPv4 vs. IPv6, what are the differences?",
+            "page": 217
+        },
+        {
+            "level": "H1",
+            "text": "My Favorite 10 Books for Software Developers",
+            "page": 219
+        },
+        {
+            "level": "H1",
+            "text": "1 - The Pragmatic Programmer by Andrew Hunt and David Thomas",
+            "page": 219
+        },
+        {
+            "level": "H1",
+            "text": "2 - Code Complete by Steve McConnell: Often considered a bible for software developers, this",
+            "page": 219
+        },
+        {
+            "level": "H1",
+            "text": "1 - Clean Code by Robert C. Martin",
+            "page": 219
+        },
+        {
+            "level": "H1",
+            "text": "2 - Refactoring by Martin Fowler",
+            "page": 219
+        },
+        {
+            "level": "H1",
+            "text": "1 - Designing Data-Intensive Applications by Martin Kleppmann",
+            "page": 220
+        },
+        {
+            "level": "H1",
+            "text": "2 - System Design Interview (our own book :))",
+            "page": 220
+        },
+        {
+            "level": "H1",
+            "text": "1 - Design Patterns by Eric Gamma and Others",
+            "page": 220
+        },
+        {
+            "level": "H1",
+            "text": "2 - Domain-Driven Design by Eric Evans",
+            "page": 220
+        },
+        {
+            "level": "H1",
+            "text": "1 - Introduction to Algorithms by Cormen, Leiserson, Rivest, and Stein",
+            "page": 220
+        },
+        {
+            "level": "H1",
+            "text": "2 - Cracking the Coding Interview by Gayle Laakmann McDowell",
+            "page": 220
+        },
+        {
+            "level": "H1",
+            "text": "Change Data Capture: key to leverage real-time Data",
+            "page": 221
+        },
+        {
+            "level": "H1",
+            "text": "1 - Data Modification: A change is made to the data in the source database. It could be an insert,",
+            "page": 222
+        },
+        {
+            "level": "H1",
+            "text": "2 - Change Capture: A CDC tool monitors the database transaction logs to capture the",
+            "page": 222
+        },
+        {
+            "level": "H1",
+            "text": "3 - Change Processing: The captured changes are processed and transformed into a format suitable",
+            "page": 222
+        },
+        {
+            "level": "H1",
+            "text": "4 - Change Propagation: The processed changes are published to a message queue and",
+            "page": 222
+        },
+        {
+            "level": "H1",
+            "text": "5 - Real-Time Integration: The CDC tool uses its sink connector to consume the log and update the",
+            "page": 222
+        },
+        {
+            "level": "H1",
+            "text": "Netflix's Overall Architecture",
+            "page": 223
+        },
+        {
+            "level": "H1",
+            "text": "Top 5 common ways to improve API performance.",
+            "page": 225
+        },
+        {
+            "level": "H1",
+            "text": "Popular interview question: how to diagnose a mysterious",
+            "page": 227
+        },
+        {
+            "level": "H1",
+            "text": "process that’s taking too much CPU, memory, IO, etc?",
+            "page": 227
+        },
+        {
+            "level": "H1",
+            "text": "What is a deadlock?",
+            "page": 228
+        },
+        {
+            "level": "H1",
+            "text": "What’s the difference between Session-based authentication",
+            "page": 230
+        },
+        {
+            "level": "H1",
+            "text": "and JWTs?",
+            "page": 230
+        },
+        {
+            "level": "H1",
+            "text": "5 - The server authenticates the user using the session ID.",
+            "page": 231
+        },
+        {
+            "level": "H1",
+            "text": "2 - The server verifies the credentials and issues a JWT. The JWT is signed using a private key and",
+            "page": 231
+        },
+        {
+            "level": "H1",
+            "text": "3 - The JWT is passed to the client, either as a cookie or in the response body. Both approaches",
+            "page": 231
+        },
+        {
+            "level": "H1",
+            "text": "Top 9 Cases Behind 100% CPU Usage.",
+            "page": 232
+        },
+        {
+            "level": "H1",
+            "text": "1. Infinite Loops",
+            "page": 232
+        },
+        {
+            "level": "H1",
+            "text": "2. Background Processes",
+            "page": 232
+        },
+        {
+            "level": "H1",
+            "text": "3. High Traffic Volume",
+            "page": 232
+        },
+        {
+            "level": "H1",
+            "text": "4. Resource-Intensive Applications",
+            "page": 232
+        },
+        {
+            "level": "H1",
+            "text": "5. Insufficient Memory",
+            "page": 233
+        },
+        {
+            "level": "H1",
+            "text": "6. Concurrent Processes",
+            "page": 233
+        },
+        {
+            "level": "H1",
+            "text": "7. Busy Waiting",
+            "page": 233
+        },
+        {
+            "level": "H1",
+            "text": "8. Regular Expression Matching",
+            "page": 233
+        },
+        {
+            "level": "H1",
+            "text": "9. Malware and Viruses",
+            "page": 233
+        },
+        {
+            "level": "H1",
+            "text": "Top 6 ElasticSearch Use Cases.",
+            "page": 234
+        },
+        {
+            "level": "H1",
+            "text": "AWS Services Cheat Sheet",
+            "page": 236
+        },
+        {
+            "level": "H1",
+            "text": "How do computer programs run?",
+            "page": 237
+        },
+        {
+            "level": "H1",
+            "text": "A cheat sheet for API designs.",
+            "page": 239
+        },
+        {
+            "level": "H1",
+            "text": "Azure Services Cheat Sheet",
+            "page": 241
+        },
+        {
+            "level": "H3",
+            "text": "The attached illustration can serve as both an introduction and a quick reference for anyone aiming",
+            "page": 241
+        },
+        {
+            "level": "H1",
+            "text": "Why is Kafka fast?",
+            "page": 242
+        },
+        {
+            "level": "H1",
+            "text": "1️. The first one is Kafka’s reliance on Sequential I/O.",
+            "page": 242
+        },
+        {
+            "level": "H1",
+            "text": "2️. The second design choice that gives Kafka its performance advantage is its focus on",
+            "page": 242
+        },
+        {
+            "level": "H2",
+            "text": "2.1: The data is loaded from disk to OS cache",
+            "page": 243
+        },
+        {
+            "level": "H2",
+            "text": "2.2 The data is copied from OS cache to Kafka application",
+            "page": 243
+        },
+        {
+            "level": "H2",
+            "text": "2.3 Kafka application copies the data into the socket buffer",
+            "page": 243
+        },
+        {
+            "level": "H2",
+            "text": "2.4 The data is copied from socket buffer to network card",
+            "page": 243
+        },
+        {
+            "level": "H2",
+            "text": "2.5 The network card sends data out to the consumer",
+            "page": 243
+        },
+        {
+            "level": "H2",
+            "text": "3.1: The data is loaded from disk to OS cache",
+            "page": 243
+        },
+        {
+            "level": "H2",
+            "text": "3.2 OS cache directly copies the data to the network card via sendfile() command",
+            "page": 243
+        },
+        {
+            "level": "H2",
+            "text": "3.3 The network card sends data out to the consumer",
+            "page": 243
+        },
+        {
+            "level": "H1",
+            "text": "How do we retry on failures?",
+            "page": 244
+        },
+        {
+            "level": "H1",
+            "text": "7 must-know strategies to scale your database.",
+            "page": 246
+        },
+        {
+            "level": "H1",
+            "text": "1 - Indexing:",
+            "page": 246
+        },
+        {
+            "level": "H1",
+            "text": "2 - Materialized Views:",
+            "page": 246
+        },
+        {
+            "level": "H1",
+            "text": "3 - Denormalization:",
+            "page": 246
+        },
+        {
+            "level": "H1",
+            "text": "4 - Vertical Scaling",
+            "page": 246
+        },
+        {
+            "level": "H1",
+            "text": "5 - Caching",
+            "page": 246
+        },
+        {
+            "level": "H1",
+            "text": "6 - Replication",
+            "page": 247
+        },
+        {
+            "level": "H1",
+            "text": "7 - Sharding",
+            "page": 247
+        },
+        {
+            "level": "H1",
+            "text": "Reddit’s Core Architecture that helps it serve over 1 billion",
+            "page": 248
+        },
+        {
+            "level": "H1",
+            "text": "users every month.",
+            "page": 248
+        },
+        {
+            "level": "H1",
+            "text": "1 - Reddit uses a Content Delivery Network (CDN) from Fastly as a front for the application",
+            "page": 248
+        },
+        {
+            "level": "H1",
+            "text": "2 - Reddit started using jQuery in early 2009. Later on, they started using Typescript and have now",
+            "page": 249
+        },
+        {
+            "level": "H1",
+            "text": "3 - Within the application stack, the load balancer sits in front and routes incoming requests to the",
+            "page": 249
+        },
+        {
+            "level": "H1",
+            "text": "4 - Reddit started as a Python-based monolithic application but has since started moving to",
+            "page": 249
+        },
+        {
+            "level": "H1",
+            "text": "5 - Reddit heavily uses GraphQL for its API layer. In early 2021, they started moving to GraphQL",
+            "page": 249
+        },
+        {
+            "level": "H1",
+            "text": "6 - From a data storage point of view, Reddit relies on Postgres for its core data model. To reduce",
+            "page": 249
+        },
+        {
+            "level": "H1",
+            "text": "7 - To support data replication and maintain cache consistency, Reddit uses Debezium to run a",
+            "page": 249
+        },
+        {
+            "level": "H1",
+            "text": "8 - Expensive operations such as a user voting or submitting a link are deferred to an async job",
+            "page": 249
+        },
+        {
+            "level": "H1",
+            "text": "9 - Reddit uses AWS and Kubernetes as the hosting platform for its various apps and internal",
+            "page": 249
+        },
+        {
+            "level": "H1",
+            "text": "Everything You Need to Know About Cross-Site Scripting",
+            "page": 250
+        },
+        {
+            "level": "H1",
+            "text": "(XSS).",
+            "page": 250
+        },
+        {
+            "level": "H1",
+            "text": "15 Open-Source Projects That Changed the World",
+            "page": 252
+        },
+        {
+            "level": "H1",
+            "text": "Types of Memory and Storage",
+            "page": 254
+        },
+        {
+            "level": "H1",
+            "text": "How to load your websites at lightning speed?",
+            "page": 255
+        },
+        {
+            "level": "H1",
+            "text": "1 - Compression",
+            "page": 255
+        },
+        {
+            "level": "H1",
+            "text": "2 - Selective Rendering/Windowing",
+            "page": 255
+        },
+        {
+            "level": "H1",
+            "text": "3 - Modular Architecture with Code Splitting",
+            "page": 255
+        },
+        {
+            "level": "H1",
+            "text": "4 - Priority-Based Loading",
+            "page": 256
+        },
+        {
+            "level": "H1",
+            "text": "5 - Pre-loading",
+            "page": 256
+        },
+        {
+            "level": "H1",
+            "text": "6 - Tree Shaking or Dead Code Removal",
+            "page": 256
+        },
+        {
+            "level": "H1",
+            "text": "7 - Pre-fetching",
+            "page": 256
+        },
+        {
+            "level": "H1",
+            "text": "8 - Dynamic Imports",
+            "page": 256
+        },
+        {
+            "level": "H1",
+            "text": "25 Papers That Completely Transformed the Computer",
+            "page": 257
+        },
+        {
+            "level": "H1",
+            "text": "World.",
+            "page": 257
+        },
+        {
+            "level": "H1",
+            "text": "1. Dynamo - Amazon’s Highly Available Key Value Store",
+            "page": 257
+        },
+        {
+            "level": "H1",
+            "text": "2. Google File System: Insights into a highly scalable file system",
+            "page": 257
+        },
+        {
+            "level": "H1",
+            "text": "3. Scaling Memcached at Facebook: A look at the complexities of Caching",
+            "page": 257
+        },
+        {
+            "level": "H1",
+            "text": "4. BigTable: The design principles behind a distributed storage system",
+            "page": 257
+        },
+        {
+            "level": "H1",
+            "text": "5. Borg - Large Scale Cluster Management at Google",
+            "page": 257
+        },
+        {
+            "level": "H1",
+            "text": "6. Cassandra: A look at the design and architecture of a distributed NoSQL database",
+            "page": 257
+        },
+        {
+            "level": "H1",
+            "text": "7. Attention Is All You Need: Into a new deep learning architecture known as the transformer",
+            "page": 257
+        },
+        {
+            "level": "H1",
+            "text": "8. Kafka: Internals of the distributed messaging platform",
+            "page": 257
+        },
+        {
+            "level": "H1",
+            "text": "9. FoundationDB: A look at how a distributed database",
+            "page": 257
+        },
+        {
+            "level": "H1",
+            "text": "10. Amazon Aurora: To learn how Amazon provides high-availability and performance",
+            "page": 257
+        },
+        {
+            "level": "H1",
+            "text": "11. Spanner: Design and architecture of Google’s globally distributed databas",
+            "page": 257
+        },
+        {
+            "level": "H1",
+            "text": "12. MapReduce: A detailed look at how MapReduce enables parallel processing of massive volumes",
+            "page": 258
+        },
+        {
+            "level": "H1",
+            "text": "13. Shard Manager: Understanding the generic shard management framework",
+            "page": 258
+        },
+        {
+            "level": "H1",
+            "text": "14. Dapper: Insights into Google’s distributed systems tracing infrastructure",
+            "page": 258
+        },
+        {
+            "level": "H1",
+            "text": "15. Flink: A detailed look at the unified architecture of stream and batch processing",
+            "page": 258
+        },
+        {
+            "level": "H1",
+            "text": "16. A Comprehensive Survey on Vector Databases",
+            "page": 258
+        },
+        {
+            "level": "H1",
+            "text": "17. Zanzibar: A look at the design, implementation and deployment of a global system for managing",
+            "page": 258
+        },
+        {
+            "level": "H1",
+            "text": "18. Monarch: Architecture of Google’s in-memory time series database",
+            "page": 258
+        },
+        {
+            "level": "H1",
+            "text": "19. Thrift: Explore the design choices behind Facebook’s code-generation tool",
+            "page": 258
+        },
+        {
+            "level": "H1",
+            "text": "20. Bitcoin: The ground-breaking introduction to the peer-to-peer electronic cash system",
+            "page": 258
+        },
+        {
+            "level": "H1",
+            "text": "21. WTF - Who to Follow Service at Twitter: Twitter’s (now X) user recommendation system",
+            "page": 258
+        },
+        {
+            "level": "H1",
+            "text": "22. MyRocks: LSM-Tree Database Storage Engine",
+            "page": 258
+        },
+        {
+            "level": "H1",
+            "text": "23. GoTo Considered Harmful",
+            "page": 258
+        },
+        {
+            "level": "H1",
+            "text": "24. Raft Consensus Algorithm: To learn about the more understandable consensus algorithm",
+            "page": 258
+        },
+        {
+            "level": "H1",
+            "text": "25. Time Clocks and Ordering of Events: The extremely important paper that explains the concept of",
+            "page": 258
+        },
+        {
+            "level": "H1",
+            "text": "10 Essential Components of a Production Web Application.",
+            "page": 259
+        },
+        {
+            "level": "H1",
+            "text": "1 - It all starts with CI/CD pipelines that deploy code to the server instances. Tools like Jenkins and",
+            "page": 259
+        },
+        {
+            "level": "H1",
+            "text": "2 - The user requests originate from the web browser. After DNS resolution, the requests reach the",
+            "page": 259
+        },
+        {
+            "level": "H1",
+            "text": "3 - Load balancers and reverse proxies (such as Nginx & HAProxy) distribute user requests evenly",
+            "page": 259
+        },
+        {
+            "level": "H1",
+            "text": "5 - The web app communicates with backend services via APIs.",
+            "page": 259
+        },
+        {
+            "level": "H1",
+            "text": "8 - The full-text search service supports the search functionality. Tools like Elasticsearch and Apache",
+            "page": 259
+        },
+        {
+            "level": "H1",
+            "text": "9 - Monitoring tools (such as Sentry, Grafana, and Prometheus) store logs and help analyze data to",
+            "page": 259
+        },
+        {
+            "level": "H1",
+            "text": "10 - In case of issues, alerting services notify developers through platforms like Slack for quick",
+            "page": 259
+        },
+        {
+            "level": "H1",
+            "text": "Top 8 Standards Every Developer Should Know.",
+            "page": 260
+        },
+        {
+            "level": "H1",
+            "text": "8601 is a date and time format standard developed by the ISO (International Organization for",
+            "page": 261
+        },
+        {
+            "level": "H1",
+            "text": "Explaining JSON Web Token (JWT) with simple terms.",
+            "page": 262
+        },
+        {
+            "level": "H1",
+            "text": "11 steps to go from Junior to Senior Developer.",
+            "page": 263
+        },
+        {
+            "level": "H1",
+            "text": "1 - Collaboration Tools",
+            "page": 263
+        },
+        {
+            "level": "H1",
+            "text": "2 - Programming Languages",
+            "page": 263
+        },
+        {
+            "level": "H1",
+            "text": "3 - API Development",
+            "page": 263
+        },
+        {
+            "level": "H1",
+            "text": "4 - Web Servers and Hosting",
+            "page": 263
+        },
+        {
+            "level": "H1",
+            "text": "5 - Authentication and Testing",
+            "page": 263
+        },
+        {
+            "level": "H1",
+            "text": "6 - Databases",
+            "page": 264
+        },
+        {
+            "level": "H1",
+            "text": "7 - CI/CD",
+            "page": 264
+        },
+        {
+            "level": "H1",
+            "text": "8 - Data Structures and Algorithms",
+            "page": 264
+        },
+        {
+            "level": "H1",
+            "text": "9 - System Design",
+            "page": 264
+        },
+        {
+            "level": "H1",
+            "text": "10 - Design patterns",
+            "page": 264
+        },
+        {
+            "level": "H1",
+            "text": "11 - AI Tools",
+            "page": 264
+        },
+        {
+            "level": "H1",
+            "text": "Top 8 must-know Docker concepts",
+            "page": 265
+        },
+        {
+            "level": "H1",
+            "text": "1 - Dockerfile: It contains the instructions to build a Docker image by specifying the base image,",
+            "page": 265
+        },
+        {
+            "level": "H1",
+            "text": "2 - Docker Image: A lightweight, standalone package that includes everything (code, libraries, and",
+            "page": 265
+        },
+        {
+            "level": "H1",
+            "text": "3 - Docker Container: A running instance of a Docker image. Containers are isolated from each",
+            "page": 265
+        },
+        {
+            "level": "H1",
+            "text": "4 - Docker Registry: A centralized repository for storing and distributing Docker images. For",
+            "page": 265
+        },
+        {
+            "level": "H1",
+            "text": "5 - Docker Volumes: A way to persist data generated by containers. Volumes are outside the",
+            "page": 265
+        },
+        {
+            "level": "H1",
+            "text": "6 - Docker Compose: A tool for defining and running multi-container Docker applications, making it",
+            "page": 265
+        },
+        {
+            "level": "H1",
+            "text": "8 - Docker CLI: The primary way to interact with Docker, providing commands for building images,",
+            "page": 266
+        },
+        {
+            "level": "H1",
+            "text": "Top 10 Most Popular Open-Source Databases",
+            "page": 267
+        },
+        {
+            "level": "H1",
+            "text": "1 - MySQL",
+            "page": 267
+        },
+        {
+            "level": "H1",
+            "text": "2 - PostgreSQL",
+            "page": 267
+        },
+        {
+            "level": "H1",
+            "text": "3 - MariaDB",
+            "page": 267
+        },
+        {
+            "level": "H1",
+            "text": "4 - Apache Cassandra",
+            "page": 267
+        },
+        {
+            "level": "H1",
+            "text": "5 - Neo4j",
+            "page": 267
+        },
+        {
+            "level": "H1",
+            "text": "6 - SQLite",
+            "page": 267
+        },
+        {
+            "level": "H1",
+            "text": "7 - CockroachDB",
+            "page": 267
+        },
+        {
+            "level": "H1",
+            "text": "8 - Redis",
+            "page": 267
+        },
+        {
+            "level": "H1",
+            "text": "9 - MongoDB",
+            "page": 267
+        },
+        {
+            "level": "H1",
+            "text": "10 - Couchbase",
+            "page": 267
+        },
+        {
+            "level": "H1",
+            "text": "What does a typical microservice architecture look like?",
+            "page": 268
+        },
+        {
+            "level": "H1",
+            "text": "1). What are the drawbacks of the microservice architecture?",
+            "page": 269
+        },
+        {
+            "level": "H1",
+            "text": "2). Have you seen a monolithic system be transformed into microservice architecture? How long",
+            "page": 269
+        },
+        {
+            "level": "H1",
+            "text": "What is SSO (Single Sign-On)?",
+            "page": 270
+        },
+        {
+            "level": "H1",
+            "text": "What makes HTTP2 faster than HTTP1?",
+            "page": 272
+        },
+        {
+            "level": "H1",
+            "text": "1 - Binary Framing Layer",
+            "page": 272
+        },
+        {
+            "level": "H1",
+            "text": "2 - Multiplexing",
+            "page": 272
+        },
+        {
+            "level": "H1",
+            "text": "3 - Stream Prioritization",
+            "page": 273
+        },
+        {
+            "level": "H1",
+            "text": "4 - Server Push",
+            "page": 273
+        },
+        {
+            "level": "H1",
+            "text": "5 - HPACK Header Compression",
+            "page": 273
+        },
+        {
+            "level": "H1",
+            "text": "Log Parsing Cheat Sheet",
+            "page": 274
+        },
+        {
+            "level": "H1",
+            "text": "1. GREP",
+            "page": 274
+        },
+        {
+            "level": "H1",
+            "text": "2. CUT",
+            "page": 274
+        },
+        {
+            "level": "H1",
+            "text": "3. SED",
+            "page": 274
+        },
+        {
+            "level": "H1",
+            "text": "4. AWK",
+            "page": 275
+        },
+        {
+            "level": "H1",
+            "text": "5. SORT",
+            "page": 275
+        },
+        {
+            "level": "H1",
+            "text": "6. UNIQ",
+            "page": 275
+        },
+        {
+            "level": "H1",
+            "text": "4 Ways Netflix Uses Caching to Hold User Attention",
+            "page": 276
+        },
+        {
+            "level": "H1",
+            "text": "1 - Lookaside Cache",
+            "page": 276
+        },
+        {
+            "level": "H1",
+            "text": "2 - Transient Data Store",
+            "page": 276
+        },
+        {
+            "level": "H1",
+            "text": "3 - Primary Store",
+            "page": 277
+        },
+        {
+            "level": "H1",
+            "text": "4 - High Volume Data",
+            "page": 277
+        },
+        {
+            "level": "H1",
+            "text": "Top 6 Cases to Apply Idempotency.",
+            "page": 278
+        },
+        {
+            "level": "H1",
+            "text": "1. RESTful API Requests",
+            "page": 278
+        },
+        {
+            "level": "H1",
+            "text": "2. Payment Processing",
+            "page": 278
+        },
+        {
+            "level": "H1",
+            "text": "3. Order Management Systems",
+            "page": 278
+        },
+        {
+            "level": "H1",
+            "text": "4. Database Operations",
+            "page": 278
+        },
+        {
+            "level": "H1",
+            "text": "5. User Account Management",
+            "page": 279
+        },
+        {
+            "level": "H1",
+            "text": "6. Distributed Systems and Messaging",
+            "page": 279
+        },
+        {
+            "level": "H1",
+            "text": "MVC, MVP, MVVM, MVVM-C, and VIPER architecture patterns",
+            "page": 280
+        },
+        {
+            "level": "H1",
+            "text": "What are the differences among database locks?",
+            "page": 281
+        },
+        {
+            "level": "H1",
+            "text": "1. Shared Lock (S Lock)",
+            "page": 281
+        },
+        {
+            "level": "H1",
+            "text": "2. Exclusive Lock (X Lock)",
+            "page": 281
+        },
+        {
+            "level": "H1",
+            "text": "3. Update Lock (U Lock)",
+            "page": 282
+        },
+        {
+            "level": "H1",
+            "text": "4. Schema Lock",
+            "page": 282
+        },
+        {
+            "level": "H1",
+            "text": "5. Bulk Update Lock (BU Lock)",
+            "page": 282
+        },
+        {
+            "level": "H1",
+            "text": "6. Key-Range Lock",
+            "page": 282
+        },
+        {
+            "level": "H1",
+            "text": "7. Row-Level Lock",
+            "page": 282
+        },
+        {
+            "level": "H1",
+            "text": "8. Page-Level Lock",
+            "page": 282
+        },
+        {
+            "level": "H1",
+            "text": "9. Table-Level Lock",
+            "page": 282
+        },
+        {
+            "level": "H1",
+            "text": "How do we Perform Pagination in API Design?",
+            "page": 283
+        },
+        {
+            "level": "H1",
+            "text": "What happens when you type a URL into your browser?",
+            "page": 285
+        },
+        {
+            "level": "H1",
+            "text": "1. Bob enters a URL into the browser and hits Enter. In this example, the URL is composed of 4",
+            "page": 285
+        },
+        {
+            "level": "H2",
+            "text": "2.1 If the IP address cannot be found at any of the caches, the browser goes to DNS servers to do a",
+            "page": 285
+        },
+        {
+            "level": "H1",
+            "text": "3. Now that we have the IP address of the server, the browser establishes a TCP connection with",
+            "page": 285
+        },
+        {
+            "level": "H1",
+            "text": "4. The browser sends an HTTP request to the server. The request looks like this:",
+            "page": 285
+        },
+        {
+            "level": "H1",
+            "text": "5. The server processes the request and sends back the response. For a successful response (the",
+            "page": 286
+        },
+        {
+            "level": "H1",
+            "text": "6. The browser renders the HTML content.",
+            "page": 286
+        },
+        {
+            "level": "H1",
+            "text": "How do you pay from your digital wallet by scanning the QR",
+            "page": 287
+        },
+        {
+            "level": "H1",
+            "text": "code?",
+            "page": 287
+        },
+        {
+            "level": "H1",
+            "text": "1. Merchant generates a QR code and displays it on the screen",
+            "page": 287
+        },
+        {
+            "level": "H1",
+            "text": "2. Consumer scans the QR code and pays",
+            "page": 287
+        },
+        {
+            "level": "H1",
+            "text": "1. When you want to pay for your shopping, the cashier tallies up all the goods and calculates the",
+            "page": 287
+        },
+        {
+            "level": "H1",
+            "text": "4. PSP’s Payment Gateway service reads the QR code URL.",
+            "page": 288
+        },
+        {
+            "level": "H1",
+            "text": "7. The checkout counter displays the QR code.",
+            "page": 288
+        },
+        {
+            "level": "H1",
+            "text": "4. The PSP payment gateway marks this QR code as paid and returns a success message to the",
+            "page": 288
+        },
+        {
+            "level": "H1",
+            "text": "What do Amazon, Netflix, and Uber have in common?",
+            "page": 289
+        },
+        {
+            "level": "H1",
+            "text": "1 - Stateless Services",
+            "page": 289
+        },
+        {
+            "level": "H1",
+            "text": "2 - Horizontal Scaling",
+            "page": 289
+        },
+        {
+            "level": "H1",
+            "text": "3 - Load Balancing",
+            "page": 289
+        },
+        {
+            "level": "H1",
+            "text": "4 - Auto Scaling",
+            "page": 290
+        },
+        {
+            "level": "H1",
+            "text": "5 - Caching",
+            "page": 290
+        },
+        {
+            "level": "H1",
+            "text": "6 - Database Replication",
+            "page": 290
+        },
+        {
+            "level": "H1",
+            "text": "7 - Database Sharding",
+            "page": 290
+        },
+        {
+            "level": "H1",
+            "text": "8 - Async Processing",
+            "page": 290
+        },
+        {
+            "level": "H1",
+            "text": "100X Postgres Scaling at Figma.",
+            "page": 291
+        },
+        {
+            "level": "H1",
+            "text": "1 - Vertical Scaling and Replication",
+            "page": 291
+        },
+        {
+            "level": "H1",
+            "text": "2 - Vertical Partitioning",
+            "page": 291
+        },
+        {
+            "level": "H1",
+            "text": "3 - Horizontal Partitioning",
+            "page": 292
+        },
+        {
+            "level": "H1",
+            "text": "How to store passwords safely in the database and how to",
+            "page": 293
+        },
+        {
+            "level": "H1",
+            "text": "validate a password?",
+            "page": 293
+        },
+        {
+            "level": "H1",
+            "text": "1️ ⃣  A salt is not meant to be secret and it can be stored in plain text in the database. It is used to",
+            "page": 293
+        },
+        {
+            "level": "H1",
+            "text": "1️ ⃣  A client enters the password.",
+            "page": 294
+        },
+        {
+            "level": "H1",
+            "text": "2️ ⃣  The system fetches the corresponding salt from the database.",
+            "page": 294
+        },
+        {
+            "level": "H1",
+            "text": "4️ ⃣  The system compares H1 and H2, where H2 is the hash stored in the database. If they are the",
+            "page": 294
+        },
+        {
+            "level": "H1",
+            "text": "Cybersecurity 101 in one picture.",
+            "page": 295
+        },
+        {
+            "level": "H1",
+            "text": "1. Introduction to Cybersecurity",
+            "page": 295
+        },
+        {
+            "level": "H1",
+            "text": "2. The CIA Triad",
+            "page": 295
+        },
+        {
+            "level": "H1",
+            "text": "3. Common Cybersecurity Threats",
+            "page": 295
+        },
+        {
+            "level": "H1",
+            "text": "4. Basic Defense Mechanisms",
+            "page": 295
+        },
+        {
+            "level": "H1",
+            "text": "5. Cybersecurity Frameworks",
+            "page": 295
+        },
+        {
+            "level": "H1",
+            "text": "What do version numbers mean?",
+            "page": 296
+        },
+        {
+            "level": "H1",
+            "text": "1 - Initial Development Phase",
+            "page": 296
+        },
+        {
+            "level": "H1",
+            "text": "2 - First Stable Release",
+            "page": 297
+        },
+        {
+            "level": "H1",
+            "text": "3 - Subsequent Changes",
+            "page": 297
+        },
+        {
+            "level": "H1",
+            "text": "4 - Special Versions and Pre-releases",
+            "page": 297
+        },
+        {
+            "level": "H1",
+            "text": "What is k8s (Kubernetes)?",
+            "page": 298
+        },
+        {
+            "level": "H1",
+            "text": "1. API Server",
+            "page": 299
+        },
+        {
+            "level": "H1",
+            "text": "2. Scheduler",
+            "page": 299
+        },
+        {
+            "level": "H1",
+            "text": "3. Controller Manager",
+            "page": 299
+        },
+        {
+            "level": "H1",
+            "text": "4. etcd",
+            "page": 299
+        },
+        {
+            "level": "H1",
+            "text": "1. Pods",
+            "page": 299
+        },
+        {
+            "level": "H1",
+            "text": "2. Kubelet",
+            "page": 299
+        },
+        {
+            "level": "H1",
+            "text": "3. Kube Proxy",
+            "page": 299
+        },
+        {
+            "level": "H1",
+            "text": "HTTP Status Code You Should Know",
+            "page": 300
+        },
+        {
+            "level": "H1",
+            "text": "18 Most-used Linux Commands You Should Know",
+            "page": 301
+        },
+        {
+            "level": "H1",
+            "text": "Iterative, Agile, Waterfall, Spiral Model, RAD Model... What",
+            "page": 303
+        },
+        {
+            "level": "H1",
+            "text": "are the differences?",
+            "page": 303
+        },
+        {
+            "level": "H1",
+            "text": "1 - Waterfall Model:",
+            "page": 303
+        },
+        {
+            "level": "H1",
+            "text": "2 - Agile Model:",
+            "page": 303
+        },
+        {
+            "level": "H1",
+            "text": "3 - V-Model (Validation and Verification Model):",
+            "page": 303
+        },
+        {
+            "level": "H1",
+            "text": "4 - Iterative Model:",
+            "page": 304
+        },
+        {
+            "level": "H1",
+            "text": "5 - Spiral Model:",
+            "page": 304
+        },
+        {
+            "level": "H1",
+            "text": "6 - Big Bang Model:",
+            "page": 304
+        },
+        {
+            "level": "H1",
+            "text": "7 - RAD Model (Rapid Application Development):",
+            "page": 304
+        },
+        {
+            "level": "H1",
+            "text": "8 - Incremental Model:",
+            "page": 304
+        },
+        {
+            "level": "H1",
+            "text": "Design Patterns Cheat Sheet - Part 1 and Part 2",
+            "page": 305
+        },
+        {
+            "level": "H1",
+            "text": "9 Essential Components of a Production Microservice",
+            "page": 306
+        },
+        {
+            "level": "H1",
+            "text": "Application",
+            "page": 306
+        },
+        {
+            "level": "H1",
+            "text": "1 - API Gateway",
+            "page": 306
+        },
+        {
+            "level": "H1",
+            "text": "2 - Service Registry",
+            "page": 306
+        },
+        {
+            "level": "H1",
+            "text": "3 - Service Layer",
+            "page": 306
+        },
+        {
+            "level": "H1",
+            "text": "4 - Authorization Server",
+            "page": 306
+        },
+        {
+            "level": "H1",
+            "text": "5 - Data Storage",
+            "page": 306
+        },
+        {
+            "level": "H1",
+            "text": "6 - Distributed Caching",
+            "page": 307
+        },
+        {
+            "level": "H1",
+            "text": "7 - Async Microservices Communication",
+            "page": 307
+        },
+        {
+            "level": "H1",
+            "text": "8 - Metrics Visualization",
+            "page": 307
+        },
+        {
+            "level": "H1",
+            "text": "9 - Log Aggregation and Visualization",
+            "page": 307
+        },
+        {
+            "level": "H1",
+            "text": "Which latency numbers you should know?",
+            "page": 308
+        },
+        {
+            "level": "H1",
+            "text": "1 ns = 10^-9 seconds",
+            "page": 309
+        },
+        {
+            "level": "H1",
+            "text": "1 us = 10^-6 seconds = 1,000 ns",
+            "page": 309
+        },
+        {
+            "level": "H1",
+            "text": "1 ms = 10^-3 seconds = 1,000 us = 1,000,000 ns",
+            "page": 309
+        },
+        {
+            "level": "H1",
+            "text": "API Gateway 101",
+            "page": 310
+        },
+        {
+            "level": "H1",
+            "text": "A Roadmap for Full-Stack Development.",
+            "page": 311
+        },
+        {
+            "level": "H1",
+            "text": "OAuth 2.0 Flows",
+            "page": 313
+        },
+        {
+            "level": "H1",
+            "text": "10 Key Data Structures We Use Every Day",
+            "page": 314
+        },
+        {
+            "level": "H1",
+            "text": "Top 10 k8s Design Patterns",
+            "page": 316
+        },
+        {
+            "level": "H1",
+            "text": "1. Health Probe Pattern",
+            "page": 316
+        },
+        {
+            "level": "H1",
+            "text": "2. Predictable Demands Pattern",
+            "page": 316
+        },
+        {
+            "level": "H1",
+            "text": "3. Automated Placement Pattern",
+            "page": 316
+        },
+        {
+            "level": "H1",
+            "text": "4. Init Container Pattern",
+            "page": 317
+        },
+        {
+            "level": "H1",
+            "text": "5. Sidecar Pattern",
+            "page": 317
+        },
+        {
+            "level": "H1",
+            "text": "6. Batch Job Pattern",
+            "page": 317
+        },
+        {
+            "level": "H1",
+            "text": "7. Stateful Service Pattern",
+            "page": 317
+        },
+        {
+            "level": "H1",
+            "text": "8. Service Discovery Pattern",
+            "page": 317
+        },
+        {
+            "level": "H1",
+            "text": "9. Controller Pattern",
+            "page": 317
+        },
+        {
+            "level": "H1",
+            "text": "10. Operator Pattern",
+            "page": 317
+        },
+        {
+            "level": "H1",
+            "text": "What is a Load Balancer?",
+            "page": 318
+        },
+        {
+            "level": "H1",
+            "text": "1. Distributes Traffic",
+            "page": 318
+        },
+        {
+            "level": "H1",
+            "text": "2. Ensures Availability and Reliability",
+            "page": 318
+        },
+        {
+            "level": "H1",
+            "text": "3. Improves Performance",
+            "page": 318
+        },
+        {
+            "level": "H1",
+            "text": "4. Scales Applications",
+            "page": 318
+        },
+        {
+            "level": "H1",
+            "text": "1. Hardware Load Balancers: These are physical devices designed to distribute traffic across",
+            "page": 318
+        },
+        {
+            "level": "H1",
+            "text": "2. Software Load Balancers: These are applications that can be installed on standard hardware or",
+            "page": 318
+        },
+        {
+            "level": "H1",
+            "text": "3. Cloud-based Load Balancers: Provided by cloud service providers, these load balancers are",
+            "page": 319
+        },
+        {
+            "level": "H1",
+            "text": "4. Layer 4 Load Balancers (Transport Layer): Operate at the transport layer (OSI Layer 4) and make",
+            "page": 319
+        },
+        {
+            "level": "H1",
+            "text": "6. Global Server Load Balancing (GSLB): Distributes traffic across multiple geographical locations to",
+            "page": 319
+        },
+        {
+            "level": "H1",
+            "text": "8 Common System Design Problems and Solutions",
+            "page": 320
+        },
+        {
+            "level": "H1",
+            "text": "1 - Read-Heavy System",
+            "page": 320
+        },
+        {
+            "level": "H1",
+            "text": "2 - High-Write Traffic",
+            "page": 320
+        },
+        {
+            "level": "H1",
+            "text": "3 - Single Point of Failure",
+            "page": 320
+        },
+        {
+            "level": "H1",
+            "text": "4 - High Availability",
+            "page": 321
+        },
+        {
+            "level": "H1",
+            "text": "5 - High Latency",
+            "page": 321
+        },
+        {
+            "level": "H1",
+            "text": "6 - Handling Large Files",
+            "page": 321
+        },
+        {
+            "level": "H1",
+            "text": "7 - Monitoring and Alerting",
+            "page": 321
+        },
+        {
+            "level": "H1",
+            "text": "8 - Slower Database Queries",
+            "page": 321
+        },
+        {
+            "level": "H1",
+            "text": "How does SSH work?",
+            "page": 322
+        },
+        {
+            "level": "H1",
+            "text": "1. Transport Layer",
+            "page": 322
+        },
+        {
+            "level": "H1",
+            "text": "2. Authentication Layer",
+            "page": 322
+        },
+        {
+            "level": "H1",
+            "text": "3. Connection Layer",
+            "page": 322
+        },
+        {
+            "level": "H1",
+            "text": "How to load your websites at lightning speed?",
+            "page": 323
+        },
+        {
+            "level": "H1",
+            "text": "1 - Compression",
+            "page": 323
+        },
+        {
+            "level": "H1",
+            "text": "2 - Selective Rendering/Windowing",
+            "page": 323
+        },
+        {
+            "level": "H1",
+            "text": "3 - Modular Architecture with Code Splitting",
+            "page": 323
+        },
+        {
+            "level": "H1",
+            "text": "4 - Priority-Based Loading",
+            "page": 323
+        },
+        {
+            "level": "H1",
+            "text": "5 - Pre-loading",
+            "page": 324
+        },
+        {
+            "level": "H1",
+            "text": "6 - Tree Shaking or Dead Code Removal",
+            "page": 324
+        },
+        {
+            "level": "H1",
+            "text": "7 - Pre-fetching",
+            "page": 324
+        },
+        {
+            "level": "H1",
+            "text": "8 - Dynamic Imports",
+            "page": 324
+        },
+        {
+            "level": "H1",
+            "text": "Why is Nginx so popular?",
+            "page": 325
+        },
+        {
+            "level": "H1",
+            "text": "1 - High-Performance Web Server",
+            "page": 325
+        },
+        {
+            "level": "H1",
+            "text": "2 - Reverse Proxy and Load Balancing",
+            "page": 325
+        },
+        {
+            "level": "H1",
+            "text": "3 - Content Cache",
+            "page": 325
+        },
+        {
+            "level": "H1",
+            "text": "4 - SSL Termination",
+            "page": 325
+        },
+        {
+            "level": "H1",
+            "text": "How Discord Stores Trillions of Messages",
+            "page": 326
+        },
+        {
+            "level": "H2",
+            "text": "How does Garbage Collection work?",
+            "page": 328
+        },
+        {
+            "level": "H1",
+            "text": "1. Serial Garbage Collector: Best for single-threaded environments or small applications.",
+            "page": 328
+        },
+        {
+            "level": "H1",
+            "text": "2. Parallel Garbage Collector: Also known as the \"Throughput Collector.\"",
+            "page": 328
+        },
+        {
+            "level": "H1",
+            "text": "3. CMS (Concurrent Mark-Sweep) Garbage Collector: Low-latency collector aiming to minimize",
+            "page": 328
+        },
+        {
+            "level": "H1",
+            "text": "4. G1 (Garbage-First) Garbage Collector: Aims to balance throughput and latency.",
+            "page": 328
+        },
+        {
+            "level": "H1",
+            "text": "5. Z Garbage Collector (ZGC): A low-latency garbage collector designed for applications that require",
+            "page": 328
+        },
+        {
+            "level": "H1",
+            "text": "1. Reference Counting: Each object has a reference count; when it reaches zero, the memory is",
+            "page": 329
+        },
+        {
+            "level": "H1",
+            "text": "2. Cyclic Garbage Collector: Handles circular references that can't be resolved by reference",
+            "page": 329
+        },
+        {
+            "level": "H1",
+            "text": "A Cheat Sheet for Designing Fault-Tolerant Systems.",
+            "page": 330
+        },
+        {
+            "level": "H1",
+            "text": "1. Replication",
+            "page": 330
+        },
+        {
+            "level": "H1",
+            "text": "2. Redundancy",
+            "page": 330
+        },
+        {
+            "level": "H1",
+            "text": "3. Load Balancing",
+            "page": 330
+        },
+        {
+            "level": "H1",
+            "text": "4. Failover Mechanisms",
+            "page": 330
+        },
+        {
+            "level": "H1",
+            "text": "5. Graceful Degradation",
+            "page": 331
+        },
+        {
+            "level": "H1",
+            "text": "6. Monitoring and Alerting",
+            "page": 331
+        },
+        {
+            "level": "H1",
+            "text": "If you don’t know trade-offs, you DON'T KNOW system",
+            "page": 332
+        },
+        {
+            "level": "H1",
+            "text": "design.",
+            "page": 332
+        },
+        {
+            "level": "H1",
+            "text": "10 System Design Tradeoffs You Cannot Ignore",
+            "page": 332
+        },
+        {
+            "level": "H1",
+            "text": "1 - Vertical vs Horizontal Scaling",
+            "page": 332
+        },
+        {
+            "level": "H1",
+            "text": "2 - SQL vs NoSQL",
+            "page": 332
+        },
+        {
+            "level": "H1",
+            "text": "3 - Batch vs Stream Processing",
+            "page": 332
+        },
+        {
+            "level": "H1",
+            "text": "4 - Normalization vs Denormalization",
+            "page": 333
+        },
+        {
+            "level": "H1",
+            "text": "5 - Consistency vs Availability",
+            "page": 333
+        },
+        {
+            "level": "H1",
+            "text": "6 - Strong vs Eventual Consistency",
+            "page": 333
+        },
+        {
+            "level": "H1",
+            "text": "7 - REST vs GraphQL",
+            "page": 333
+        },
+        {
+            "level": "H1",
+            "text": "8 - Stateful vs Stateless",
+            "page": 333
+        },
+        {
+            "level": "H1",
+            "text": "9 - Read-Through vs Write-Through Cache",
+            "page": 333
+        },
+        {
+            "level": "H1",
+            "text": "10 - Sync vs Async Processing",
+            "page": 333
+        },
+        {
+            "level": "H3",
+            "text": "In asynchronous processing, tasks can run in the background. New tasks can be started without",
+            "page": 333
+        },
+        {
+            "level": "H1",
+            "text": "8 Tips for Efficient API Design.",
+            "page": 334
+        },
+        {
+            "level": "H1",
+            "text": "The Ultimate Kafka 101 You Cannot Miss",
+            "page": 336
+        },
+        {
+            "level": "H1",
+            "text": "1 - What is Kafka?",
+            "page": 336
+        },
+        {
+            "level": "H1",
+            "text": "2 - Kafka Messages",
+            "page": 336
+        },
+        {
+            "level": "H1",
+            "text": "3 - Kafka Topics and Partitions",
+            "page": 336
+        },
+        {
+            "level": "H1",
+            "text": "4 - Advantages of Kafka",
+            "page": 336
+        },
+        {
+            "level": "H1",
+            "text": "5 - Kafka Producer",
+            "page": 337
+        },
+        {
+            "level": "H1",
+            "text": "6 - Kafka Consumer",
+            "page": 337
+        },
+        {
+            "level": "H1",
+            "text": "7 - Kafka Cluster",
+            "page": 337
+        },
+        {
+            "level": "H1",
+            "text": "8 - Use Cases of Kafka",
+            "page": 337
+        },
+        {
+            "level": "H1",
+            "text": "A Cheatsheet for UML Class Diagrams",
+            "page": 338
+        },
+        {
+            "level": "H1",
+            "text": "1 - Class",
+            "page": 338
+        },
+        {
+            "level": "H1",
+            "text": "2 - Attributes",
+            "page": 338
+        },
+        {
+            "level": "H1",
+            "text": "3 - Methods",
+            "page": 338
+        },
+        {
+            "level": "H1",
+            "text": "4 - Interfaces",
+            "page": 338
+        },
+        {
+            "level": "H1",
+            "text": "5 - Enumeration",
+            "page": 339
+        },
+        {
+            "level": "H1",
+            "text": "6 - Relationships",
+            "page": 339
+        },
+        {
+            "level": "H1",
+            "text": "20 Popular Open Source Projects Started or Supported By",
+            "page": 340
+        },
+        {
+            "level": "H1",
+            "text": "Big Companies",
+            "page": 340
+        },
+        {
+            "level": "H1",
+            "text": "1 - Google",
+            "page": 340
+        },
+        {
+            "level": "H1",
+            "text": "2 - Meta",
+            "page": 340
+        },
+        {
+            "level": "H1",
+            "text": "3 - Microsoft",
+            "page": 341
+        },
+        {
+            "level": "H1",
+            "text": "4 - Netflix",
+            "page": 341
+        },
+        {
+            "level": "H1",
+            "text": "5 - LinkedIn",
+            "page": 341
+        },
+        {
+            "level": "H1",
+            "text": "6 - RedHat",
+            "page": 341
+        },
+        {
+            "level": "H1",
+            "text": "A Crash Course on Database Sharding",
+            "page": 342
+        },
+        {
+            "level": "H1",
+            "text": "1 What is Sharding?",
+            "page": 342
+        },
+        {
+            "level": "H1",
+            "text": "2 Types of Sharding",
+            "page": 342
+        },
+        {
+            "level": "H1",
+            "text": "3 Selecting the Shard Key",
+            "page": 343
+        },
+        {
+            "level": "H1",
+            "text": "4 Request Routing",
+            "page": 343
+        },
+        {
+            "level": "H1",
+            "text": "Is PostgreSQL eating the database world?",
+            "page": 344
+        },
+        {
+            "level": "H1",
+            "text": "1 - TimeSeries",
+            "page": 344
+        },
+        {
+            "level": "H1",
+            "text": "2 - Machine Learning",
+            "page": 344
+        },
+        {
+            "level": "H1",
+            "text": "3 - OLAP",
+            "page": 344
+        },
+        {
+            "level": "H1",
+            "text": "4 - Derived",
+            "page": 345
+        },
+        {
+            "level": "H1",
+            "text": "5 - GeoSpatial",
+            "page": 345
+        },
+        {
+            "level": "H1",
+            "text": "6 - Search",
+            "page": 345
+        },
+        {
+            "level": "H1",
+            "text": "7 - Federated",
+            "page": 345
+        },
+        {
+            "level": "H1",
+            "text": "8 - Graph",
+            "page": 345
+        },
+        {
+            "level": "H1",
+            "text": "The Ultimate Software Architect Knowledge Map",
+            "page": 346
+        },
+        {
+            "level": "H1",
+            "text": "1 - Master a Programming Language",
+            "page": 346
+        },
+        {
+            "level": "H1",
+            "text": "2 - Tools",
+            "page": 346
+        },
+        {
+            "level": "H1",
+            "text": "3 - Design Principles",
+            "page": 346
+        },
+        {
+            "level": "H1",
+            "text": "4 - Architectural Principles",
+            "page": 346
+        },
+        {
+            "level": "H1",
+            "text": "5 - Platform Knowledge",
+            "page": 346
+        },
+        {
+            "level": "H1",
+            "text": "6 - Data Analytics",
+            "page": 347
+        },
+        {
+            "level": "H1",
+            "text": "7 - Networking and Security",
+            "page": 347
+        },
+        {
+            "level": "H1",
+            "text": "8 - Supporting Skills",
+            "page": 347
+        },
+        {
+            "level": "H1",
+            "text": "A Crash Course on Scaling the Data Layer",
+            "page": 348
+        },
+        {
+            "level": "H1",
+            "text": "How can Cache Systems go wrong?",
+            "page": 349
+        },
+        {
+            "level": "H1",
+            "text": "1. Thunder herd problem",
+            "page": 349
+        },
+        {
+            "level": "H1",
+            "text": "2. Cache penetration",
+            "page": 349
+        },
+        {
+            "level": "H1",
+            "text": "3. Cache breakdown",
+            "page": 350
+        },
+        {
+            "level": "H1",
+            "text": "4. Cache crash",
+            "page": 350
+        },
+        {
+            "level": "H1",
+            "text": "4 Popular GraphQL Adoption Patterns",
+            "page": 351
+        },
+        {
+            "level": "H1",
+            "text": "1 - Client-based GraphQL",
+            "page": 351
+        },
+        {
+            "level": "H1",
+            "text": "2 - GraphQL with BFFs",
+            "page": 351
+        },
+        {
+            "level": "H1",
+            "text": "3 - The Monolithic GraphQL",
+            "page": 351
+        },
+        {
+            "level": "H1",
+            "text": "4 - GraphQL Federation",
+            "page": 351
+        },
+        {
+            "level": "H1",
+            "text": "Top 8 Popular Network Protocols",
+            "page": 353
+        },
+        {
+            "level": "H1",
+            "text": "1. HTTP (HyperText Transfer Protocol)",
+            "page": 353
+        },
+        {
+            "level": "H1",
+            "text": "2. HTTP/3",
+            "page": 353
+        },
+        {
+            "level": "H1",
+            "text": "3. HTTPS (HyperText Transfer Protocol Secure)",
+            "page": 353
+        },
+        {
+            "level": "H1",
+            "text": "4. WebSocket",
+            "page": 353
+        },
+        {
+            "level": "H1",
+            "text": "5. TCP (Transmission Control Protocol)",
+            "page": 353
+        },
+        {
+            "level": "H1",
+            "text": "6. UDP (User Datagram Protocol)",
+            "page": 353
+        },
+        {
+            "level": "H1",
+            "text": "7. SMTP (Simple Mail Transfer Protocol)",
+            "page": 353
+        },
+        {
+            "level": "H1",
+            "text": "8. FTP (File Transfer Protocol)",
+            "page": 353
+        },
+        {
+            "level": "H1",
+            "text": "11 Things I learned about API Development from POST/CON",
+            "page": 354
+        },
+        {
+            "level": "H1",
+            "text": "2024 by Postman.",
+            "page": 354
+        },
+        {
+            "level": "H1",
+            "text": "How do Search Engines really Work?",
+            "page": 356
+        },
+        {
+            "level": "H1",
+            "text": "The Ultimate Walkthrough of the Generative AI Landscape",
+            "page": 358
+        },
+        {
+            "level": "H1",
+            "text": "1 - What is GenAI?",
+            "page": 358
+        },
+        {
+            "level": "H1",
+            "text": "2 - Foundational Models and LLMs",
+            "page": 358
+        },
+        {
+            "level": "H1",
+            "text": "3 - “Attention is All You Need” and its impact",
+            "page": 358
+        },
+        {
+            "level": "H1",
+            "text": "4 - GenAI vs Traditional AI",
+            "page": 358
+        },
+        {
+            "level": "H1",
+            "text": "5 - How to train a foundation model?",
+            "page": 358
+        },
+        {
+            "level": "H1",
+            "text": "6 - The GenAI Development Stack (LLMs, Frameworks, Programming Languages, etc.)",
+            "page": 358
+        },
+        {
+            "level": "H1",
+            "text": "7 - GenAI Applications",
+            "page": 358
+        },
+        {
+            "level": "H1",
+            "text": "8 - Designing a simple GenAI application",
+            "page": 358
+        },
+        {
+            "level": "H1",
+            "text": "9 - The AI Engineer Job Role",
+            "page": 358
+        },
+        {
+            "level": "H1",
+            "text": "Cheatsheet on Relational Database Design",
+            "page": 359
+        },
+        {
+            "level": "H1",
+            "text": "1 - SQL",
+            "page": 359
+        },
+        {
+            "level": "H1",
+            "text": "2 - Fundamental RDBMS Concepts",
+            "page": 359
+        },
+        {
+            "level": "H1",
+            "text": "3 - Keys in Relational Databases",
+            "page": 360
+        },
+        {
+            "level": "H1",
+            "text": "4 - Relation Types",
+            "page": 360
+        },
+        {
+            "level": "H1",
+            "text": "5 - Joins",
+            "page": 360
+        },
+        {
+            "level": "H1",
+            "text": "My Favorite 10 Soft Skill Books that Can Help You Become a",
+            "page": 361
+        },
+        {
+            "level": "H1",
+            "text": "Better Developer",
+            "page": 361
+        },
+        {
+            "level": "H1",
+            "text": "1 - Deep Work by Cal Newport",
+            "page": 361
+        },
+        {
+            "level": "H1",
+            "text": "2 - Atomic Habits by James Clear",
+            "page": 361
+        },
+        {
+            "level": "H1",
+            "text": "3 - The Effective Executive by Peter Drucker",
+            "page": 361
+        },
+        {
+            "level": "H1",
+            "text": "1 - Crucial Conversations by Kerry Patterson et al.",
+            "page": 361
+        },
+        {
+            "level": "H1",
+            "text": "2 - How to Win Friends and Influence People by Dale Carnegie",
+            "page": 361
+        },
+        {
+            "level": "H1",
+            "text": "1 - Extreme Ownership by Jocko Willink and Leif Babin",
+            "page": 361
+        },
+        {
+            "level": "H1",
+            "text": "2 - The Five Dysfunctions of a Team by Patrick Lencioni",
+            "page": 361
+        },
+        {
+            "level": "H1",
+            "text": "3 - Start with Why by Simon Sinek",
+            "page": 362
+        },
+        {
+            "level": "H1",
+            "text": "1 - The Clean Coder by Robert Martin",
+            "page": 362
+        },
+        {
+            "level": "H1",
+            "text": "2 - The Design of Everyday Things by Dan Norman",
+            "page": 362
+        },
+        {
+            "level": "H1",
+            "text": "REST API Authentication Methods",
+            "page": 363
+        },
+        {
+            "level": "H1",
+            "text": "1. Basic Authentication:",
+            "page": 363
+        },
+        {
+            "level": "H1",
+            "text": "2. Token Authentication:",
+            "page": 363
+        },
+        {
+            "level": "H1",
+            "text": "3. OAuth Authentication:",
+            "page": 364
+        },
+        {
+            "level": "H1",
+            "text": "4. API Key Authentication:",
+            "page": 364
+        },
+        {
+            "level": "H3",
+            "text": "How to Design a System Like YouTube?",
+            "page": 365
+        },
+        {
+            "level": "H1",
+            "text": "1 - The user creates a video upload request and provides the video files along with the details about",
+            "page": 365
+        },
+        {
+            "level": "H1",
+            "text": "4 - The raw video files are sent for transcoding to a special transcoding server. Transcoding is the",
+            "page": 365
+        },
+        {
+            "level": "H1",
+            "text": "5 - The transcoded video is uploaded to another object storage.",
+            "page": 365
+        },
+        {
+            "level": "H1",
+            "text": "7 - The Transcoding Status Handler updates the metadata DB and cache with the latest details of",
+            "page": 366
+        },
+        {
+            "level": "H1",
+            "text": "9 - The CDN fetches the video from the object storage for streaming. It also caches the video locally",
+            "page": 366
+        },
+        {
+            "level": "H1",
+            "text": "The Evolving Landscape of API Protocols",
+            "page": 367
+        }
+    ]
+}

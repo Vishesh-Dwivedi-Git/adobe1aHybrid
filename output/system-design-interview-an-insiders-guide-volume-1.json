@@ -1,0 +1,1925 @@
+{
+    "title": "",
+    "outline": [
+        {
+            "level": "H1",
+            "text": "System Design",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "What are database isolation levels? What are they used for?",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "What is IaaS/PaaS/SaaS?",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "Most popular programming languages",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "What is the future of online payments?",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "What is SSO (Single Sign-On)?",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "How to store passwords safely in the database?",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "How does HTTPS work?",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "How to learn design patterns?",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "A visual guide on how to choose the right Database",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "Do you know how to generate globally unique IDs?",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "How does Twitter work?",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "What is the difference between Process and Thread?",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "Interview Question: design Google Docs",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "Deployment strategies",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "Flowchart of how slack decides to send a notification",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "How does Amazon build and operate the software?",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "How to design a secure web API access for your website?",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "How do microservices collaborate and interact with each other?",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "What are the differences between Virtualization (VMware) and",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "Containerization (Docker)?",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "Which cloud provider should be used when building a big data",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "How to avoid crawling duplicate URLs at Google scale?",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "Why is a solid-state drive (SSD) fast?",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "Handling a large-scale outage",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "AWS Lambda behind the scenes",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "HTTP 1.0 -> HTTP 1.1 -> HTTP 2.0 -> HTTP 3.0 (QUIC).",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "How to scale a website to support millions of users?",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "DevOps Books",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "Why is Kafka fast?",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "SOAP vs REST vs GraphQL vs RPC.",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "How do modern browsers work?",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "Redis vs Memcached",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "Optimistic locking",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "Tradeoff between latency and consistency",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "Cache miss attack",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "How to diagnose a mysterious process that’s taking too much CPU,",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "What are the top cache strategies?",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "Upload large files",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "Why is Redis so Fast?",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "SWIFT payment network",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "At-most once, at-least once, and exactly once",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "Vertical partitioning and Horizontal partitioning",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "CDN",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "Erasure coding",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "Foreign exchange in payment",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "Block storage, file storage and object storage",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "Domain Name System (DNS) lookup",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "What happens when you type a URL into your browser?",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "AI Coding engine",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "Read replica pattern",
+            "page": 3
+        },
+        {
+            "level": "H3",
+            "text": "Email receiving flow",
+            "page": 4
+        },
+        {
+            "level": "H3",
+            "text": "Email sending flow",
+            "page": 4
+        },
+        {
+            "level": "H3",
+            "text": "Interview Question: Design Gmail",
+            "page": 4
+        },
+        {
+            "level": "H3",
+            "text": "Map rendering",
+            "page": 4
+        },
+        {
+            "level": "H3",
+            "text": "Interview Question: Design Google Maps",
+            "page": 4
+        },
+        {
+            "level": "H3",
+            "text": "Pull vs push models",
+            "page": 4
+        },
+        {
+            "level": "H3",
+            "text": "Money movement",
+            "page": 4
+        },
+        {
+            "level": "H3",
+            "text": "Reconciliation",
+            "page": 4
+        },
+        {
+            "level": "H3",
+            "text": "Which database shall I use for the metrics collecting system?",
+            "page": 4
+        },
+        {
+            "level": "H3",
+            "text": "Metrics monitoring and altering system",
+            "page": 4
+        },
+        {
+            "level": "H3",
+            "text": "Big data papers",
+            "page": 4
+        },
+        {
+            "level": "H3",
+            "text": "Avoid double charge",
+            "page": 4
+        },
+        {
+            "level": "H3",
+            "text": "Payment security",
+            "page": 4
+        },
+        {
+            "level": "H3",
+            "text": "System Design Interview Tip",
+            "page": 4
+        },
+        {
+            "level": "H3",
+            "text": "Big data evolvement",
+            "page": 4
+        },
+        {
+            "level": "H3",
+            "text": "Quadtree",
+            "page": 4
+        },
+        {
+            "level": "H3",
+            "text": "How do we find nearby restaurants on Yelp?",
+            "page": 4
+        },
+        {
+            "level": "H3",
+            "text": "How does a modern stock exchange achieve microsecond latency? 147",
+            "page": 4
+        },
+        {
+            "level": "H3",
+            "text": "Match buy and sell orders",
+            "page": 4
+        },
+        {
+            "level": "H3",
+            "text": "Stock exchange design",
+            "page": 4
+        },
+        {
+            "level": "H3",
+            "text": "Design a payment system",
+            "page": 4
+        },
+        {
+            "level": "H3",
+            "text": "Design a flash sale system",
+            "page": 4
+        },
+        {
+            "level": "H3",
+            "text": "Back-of-the-envelope estimation",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "What are database isolation levels? What are they used",
+            "page": 5
+        },
+        {
+            "level": "H2",
+            "text": "for?",
+            "page": 5
+        },
+        {
+            "level": "H2",
+            "text": "What is IaaS/PaaS/SaaS?",
+            "page": 7
+        },
+        {
+            "level": "H2",
+            "text": "Most popular programming languages",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "1 JavaScript",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "2 HTML/CSS",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "3 Python",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "4 SQL",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "5 Java",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "6 Node",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "7 TypeScript",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "9 Bash/Shell",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "11 PHP",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "13 PowerShell",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "15 Kotlin",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "16 Rust",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "17 Ruby",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "18 Dart",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "19 Assembly",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "20 Swift",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "22 VBA",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "23 Matlab",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "24 Groovy",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "25 Objective-C",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "26 Scala",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "27 Perl",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "28 Haskell",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "29 Delphi",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "30 Clojure",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "31 Elixir",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "32 LISP",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "33 Julia",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "35 Erlang",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "36 APL",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "37 Crystal",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "38 COBOL",
+            "page": 9
+        },
+        {
+            "level": "H2",
+            "text": "What is the future of online payments?",
+            "page": 10
+        },
+        {
+            "level": "H1",
+            "text": "1. The bitcoin wallet balance is calculated on the fly, while the",
+            "page": 10
+        },
+        {
+            "level": "H1",
+            "text": "2. The golden source of truth for bitcoin is the blockchain, which is also",
+            "page": 11
+        },
+        {
+            "level": "H1",
+            "text": "3. There is a small virtual machine for bitcoin - and also Ethereum. The",
+            "page": 11
+        },
+        {
+            "level": "H2",
+            "text": "What is SSO (Single Sign-On)?",
+            "page": 12
+        },
+        {
+            "level": "H2",
+            "text": "How to store passwords safely in the database?",
+            "page": 14
+        },
+        {
+            "level": "H1",
+            "text": "1 ⃣  A salt is not meant to be secret and it can be stored in plain text in",
+            "page": 15
+        },
+        {
+            "level": "H1",
+            "text": "2 ⃣   The password can be stored in the database using the following",
+            "page": 15
+        },
+        {
+            "level": "H1",
+            "text": "1 ⃣  A client enters the password.",
+            "page": 15
+        },
+        {
+            "level": "H1",
+            "text": "2 ⃣  The system fetches the corresponding salt from the database.",
+            "page": 15
+        },
+        {
+            "level": "H1",
+            "text": "3 ⃣  The system appends the salt to the password and hashes it. Let’s",
+            "page": 16
+        },
+        {
+            "level": "H1",
+            "text": "4 ⃣  The system compares H1 and H2, where H2 is the hash stored in the",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": "How does HTTPS work?",
+            "page": 17
+        },
+        {
+            "level": "H1",
+            "text": "1. Security: The asymmetric encryption goes only one way. This means",
+            "page": 18
+        },
+        {
+            "level": "H1",
+            "text": "2. Server resources: The asymmetric encryption adds quite a lot of",
+            "page": 18
+        },
+        {
+            "level": "H2",
+            "text": "How to learn design patterns?",
+            "page": 19
+        },
+        {
+            "level": "H2",
+            "text": "A visual guide on how to choose the right Database",
+            "page": 21
+        },
+        {
+            "level": "H2",
+            "text": "Do you know how to generate globally unique IDs?",
+            "page": 23
+        },
+        {
+            "level": "H2",
+            "text": "How does Twitter work?",
+            "page": 25
+        },
+        {
+            "level": "H3",
+            "text": "This post is a summary of a tech talk given by Twitter in 2013. Let’s",
+            "page": 25
+        },
+        {
+            "level": "H1",
+            "text": "1 ⃣  A tweet comes in through the Write API.",
+            "page": 25
+        },
+        {
+            "level": "H1",
+            "text": "2 ⃣  The Write API routes the request to the Fanout service.",
+            "page": 25
+        },
+        {
+            "level": "H1",
+            "text": "3 ⃣  The Fanout service does a lot of processing and stores them in the",
+            "page": 25
+        },
+        {
+            "level": "H1",
+            "text": "4 ⃣  The Timeline service is used to find the Redis server that has the",
+            "page": 26
+        },
+        {
+            "level": "H1",
+            "text": "5 ⃣  A user pulls their home timeline through the Timeline service.",
+            "page": 26
+        },
+        {
+            "level": "H1",
+            "text": "2013 (https://bit.ly/3vNfjRp). Even though many years have passed, it’s",
+            "page": 26
+        },
+        {
+            "level": "H2",
+            "text": "What is the difference between Process and Thread?",
+            "page": 27
+        },
+        {
+            "level": "H1",
+            "text": "1. The program contains a set of instructions.",
+            "page": 28
+        },
+        {
+            "level": "H1",
+            "text": "2. The program is loaded into memory. It becomes one or more",
+            "page": 28
+        },
+        {
+            "level": "H1",
+            "text": "3. When a process starts, it is assigned memory and resources.  A",
+            "page": 28
+        },
+        {
+            "level": "H1",
+            "text": "1). Some programming languages support coroutine. What is the",
+            "page": 28
+        },
+        {
+            "level": "H1",
+            "text": "2). How to list running processes in Linux?",
+            "page": 28
+        },
+        {
+            "level": "H2",
+            "text": "Interview Question: design Google Docs",
+            "page": 29
+        },
+        {
+            "level": "H1",
+            "text": "1 ⃣  Clients send document editing operations to the WebSocket Server.",
+            "page": 29
+        },
+        {
+            "level": "H1",
+            "text": "2 ⃣  The real-time communication is handled by the WebSocket Server.",
+            "page": 29
+        },
+        {
+            "level": "H1",
+            "text": "3 ⃣  Documents operations are persisted in the Message Queue.",
+            "page": 29
+        },
+        {
+            "level": "H1",
+            "text": "4 ⃣  The File Operation Server consumes operations produced by clients",
+            "page": 30
+        },
+        {
+            "level": "H1",
+            "text": "5 ⃣  Three types of data are stored: file metadata, file content, and",
+            "page": 30
+        },
+        {
+            "level": "H2",
+            "text": "Deployment strategies",
+            "page": 31
+        },
+        {
+            "level": "H2",
+            "text": "Flowchart of how slack decides to send a notification",
+            "page": 33
+        },
+        {
+            "level": "H2",
+            "text": "How does Amazon build and operate the software?",
+            "page": 34
+        },
+        {
+            "level": "H2",
+            "text": "How to design a secure web API access for your",
+            "page": 36
+        },
+        {
+            "level": "H2",
+            "text": "website?",
+            "page": 36
+        },
+        {
+            "level": "H1",
+            "text": "1. Token based authentication",
+            "page": 36
+        },
+        {
+            "level": "H1",
+            "text": "2. HMAC (Hash-based Message Authentication Code) authentication",
+            "page": 36
+        },
+        {
+            "level": "H2",
+            "text": "How do microservices collaborate and interact with each",
+            "page": 39
+        },
+        {
+            "level": "H2",
+            "text": "other?",
+            "page": 39
+        },
+        {
+            "level": "H1",
+            "text": "1. Reliability - orchestration has built-in transaction management and",
+            "page": 40
+        },
+        {
+            "level": "H1",
+            "text": "2. Scalability - when adding a new service into orchestration, only the",
+            "page": 40
+        },
+        {
+            "level": "H1",
+            "text": "1. Performance - all the services talk via a centralized orchestrator, so",
+            "page": 40
+        },
+        {
+            "level": "H1",
+            "text": "2. Single point of failure - if the orchestrator goes down, no services",
+            "page": 40
+        },
+        {
+            "level": "H2",
+            "text": "What are the differences between Virtualization",
+            "page": 41
+        },
+        {
+            "level": "H2",
+            "text": "(VMware) and Containerization (Docker)?",
+            "page": 41
+        },
+        {
+            "level": "H2",
+            "text": "Which cloud provider should be used when building a",
+            "page": 43
+        },
+        {
+            "level": "H2",
+            "text": "big data solution?",
+            "page": 43
+        },
+        {
+            "level": "H1",
+            "text": "1. Data ingestion of structured or unstructured data.",
+            "page": 44
+        },
+        {
+            "level": "H1",
+            "text": "2. Raw data storage.",
+            "page": 44
+        },
+        {
+            "level": "H1",
+            "text": "3. Data processing, including filtering, transformation, normalization,",
+            "page": 44
+        },
+        {
+            "level": "H1",
+            "text": "4. Data warehouse, including key-value storage, relational database,",
+            "page": 44
+        },
+        {
+            "level": "H1",
+            "text": "5. Presentation layer with dashboards and real-time notifications.",
+            "page": 44
+        },
+        {
+            "level": "H2",
+            "text": "How to avoid crawling duplicate URLs at Google scale?",
+            "page": 45
+        },
+        {
+            "level": "H1",
+            "text": "1, then the URL may exist in the dataset; if any of the bits is 0, then the",
+            "page": 47
+        },
+        {
+            "level": "H2",
+            "text": "Why is a solid-state drive (SSD) fast?",
+            "page": 48
+        },
+        {
+            "level": "H2",
+            "text": "Handling a large-scale outage",
+            "page": 50
+        },
+        {
+            "level": "H2",
+            "text": "AWS Lambda behind the scenes",
+            "page": 52
+        },
+        {
+            "level": "H2",
+            "text": "HTTP 1.0 -> HTTP 1.1 -> HTTP 2.0 -> HTTP 3.0 (QUIC).",
+            "page": 54
+        },
+        {
+            "level": "H2",
+            "text": "How to scale a website to support millions of users?",
+            "page": 56
+        },
+        {
+            "level": "H1",
+            "text": "1. Vertical partition. Adding more power (CPU, RAM, etc.) to the",
+            "page": 58
+        },
+        {
+            "level": "H1",
+            "text": "2. Horizontal partition by adding more database servers.",
+            "page": 58
+        },
+        {
+            "level": "H1",
+            "text": "3. Adding a caching layer to offload read requests.",
+            "page": 58
+        },
+        {
+            "level": "H2",
+            "text": "DevOps Books",
+            "page": 59
+        },
+        {
+            "level": "H2",
+            "text": "Why is Kafka fast?",
+            "page": 61
+        },
+        {
+            "level": "H2",
+            "text": "2.1: The data is loaded from disk to OS cache",
+            "page": 62
+        },
+        {
+            "level": "H2",
+            "text": "2.2 The data is copied from OS cache to Kafka application",
+            "page": 62
+        },
+        {
+            "level": "H2",
+            "text": "2.3 Kafka application copies the data into the socket buffer",
+            "page": 62
+        },
+        {
+            "level": "H2",
+            "text": "2.4 The data is copied from socket buffer to network card",
+            "page": 62
+        },
+        {
+            "level": "H2",
+            "text": "2.5 The network card sends data out to the consumer",
+            "page": 62
+        },
+        {
+            "level": "H2",
+            "text": "3.1: The data is loaded from disk to OS cache",
+            "page": 62
+        },
+        {
+            "level": "H2",
+            "text": "3.2 OS cache directly copies the data to the network card via sendfile()",
+            "page": 62
+        },
+        {
+            "level": "H2",
+            "text": "3.3 The network card sends data out to the consumer",
+            "page": 62
+        },
+        {
+            "level": "H2",
+            "text": "SOAP vs REST vs GraphQL vs RPC.",
+            "page": 63
+        },
+        {
+            "level": "H3",
+            "text": "The diagram below illustrates the API timeline and API styles",
+            "page": 63
+        },
+        {
+            "level": "H2",
+            "text": "How do modern browsers work?",
+            "page": 64
+        },
+        {
+            "level": "H2",
+            "text": "Redis vs Memcached",
+            "page": 65
+        },
+        {
+            "level": "H2",
+            "text": "Optimistic locking",
+            "page": 66
+        },
+        {
+            "level": "H1",
+            "text": "1. A new column called “version” is added to the database table.",
+            "page": 66
+        },
+        {
+            "level": "H1",
+            "text": "2. Before a user modifies a database row, the application reads the",
+            "page": 66
+        },
+        {
+            "level": "H1",
+            "text": "3. When the user updates the row, the application increases the",
+            "page": 66
+        },
+        {
+            "level": "H1",
+            "text": "4. A database validation check is put in place; the next version number",
+            "page": 66
+        },
+        {
+            "level": "H2",
+            "text": "Tradeoff between latency and consistency",
+            "page": 68
+        },
+        {
+            "level": "H2",
+            "text": "Cache miss attack",
+            "page": 69
+        },
+        {
+            "level": "H2",
+            "text": "How to diagnose a mysterious process that’s taking too",
+            "page": 71
+        },
+        {
+            "level": "H2",
+            "text": "much CPU, memory, IO, etc?",
+            "page": 71
+        },
+        {
+            "level": "H2",
+            "text": "What are the top cache strategies?",
+            "page": 72
+        },
+        {
+            "level": "H2",
+            "text": "Upload large files",
+            "page": 75
+        },
+        {
+            "level": "H1",
+            "text": "1. The client calls the object storage to initiate a multipart upload.",
+            "page": 76
+        },
+        {
+            "level": "H1",
+            "text": "2. The data store returns an uploadID, which uniquely identifies the",
+            "page": 76
+        },
+        {
+            "level": "H1",
+            "text": "4. When a part is uploaded, the data store returns an ETag, which is",
+            "page": 76
+        },
+        {
+            "level": "H1",
+            "text": "5. After all parts are uploaded, the client sends a complete multipart",
+            "page": 76
+        },
+        {
+            "level": "H1",
+            "text": "6. The data store reassembles the object from its parts based on the",
+            "page": 76
+        },
+        {
+            "level": "H2",
+            "text": "Why is Redis so Fast?",
+            "page": 77
+        },
+        {
+            "level": "H1",
+            "text": "1. Redis is a RAM-based database. RAM access is at least 1000 times",
+            "page": 77
+        },
+        {
+            "level": "H1",
+            "text": "2. Redis leverages IO multiplexing and single-threaded execution loop",
+            "page": 77
+        },
+        {
+            "level": "H1",
+            "text": "3. Redis leverages several efficient lower-level data structures.",
+            "page": 77
+        },
+        {
+            "level": "H2",
+            "text": "SWIFT payment network",
+            "page": 78
+        },
+        {
+            "level": "H2",
+            "text": "At-most once, at-least once, and exactly once",
+            "page": 81
+        },
+        {
+            "level": "H2",
+            "text": "Vertical partitioning and Horizontal partitioning",
+            "page": 83
+        },
+        {
+            "level": "H2",
+            "text": "CDN",
+            "page": 85
+        },
+        {
+            "level": "H1",
+            "text": "1. Bob types in www.myshop.com in the browser. The browser looks",
+            "page": 85
+        },
+        {
+            "level": "H1",
+            "text": "2. If the domain name does not exist in the local DNS cache, the",
+            "page": 86
+        },
+        {
+            "level": "H1",
+            "text": "3. The DNS resolver recursively resolves the domain name (see my",
+            "page": 86
+        },
+        {
+            "level": "H1",
+            "text": "4. If we don’t use CDN, the authoritative name server returns the IP",
+            "page": 86
+        },
+        {
+            "level": "H1",
+            "text": "5. The DNS resolver asks the authoritative name server to resolve",
+            "page": 86
+        },
+        {
+            "level": "H1",
+            "text": "6. The authoritative name server returns the domain name for the load",
+            "page": 86
+        },
+        {
+            "level": "H1",
+            "text": "7. The DNS resolver asks the CDN load balancer to resolve",
+            "page": 86
+        },
+        {
+            "level": "H1",
+            "text": "8. The CDN load balancer returns the CDN edge server’s IP address",
+            "page": 86
+        },
+        {
+            "level": "H1",
+            "text": "9. Now we finally get the actual IP address to visit. The DNS resolver",
+            "page": 86
+        },
+        {
+            "level": "H1",
+            "text": "10. The browser visits the CDN edge server to load the content. There",
+            "page": 86
+        },
+        {
+            "level": "H1",
+            "text": "11. If the edge CDN server cache doesn't contain the content, it goes",
+            "page": 86
+        },
+        {
+            "level": "H2",
+            "text": "Erasure coding",
+            "page": 88
+        },
+        {
+            "level": "H1",
+            "text": "1 ⃣ Data is broken up into four even-sized data chunks d1, d2, d3, and",
+            "page": 89
+        },
+        {
+            "level": "H1",
+            "text": "3 ⃣ Data d3 and d4 are lost due to node crashes.",
+            "page": 89
+        },
+        {
+            "level": "H1",
+            "text": "4 ⃣ The mathematical formula is used to reconstruct lost data d3 and d4,",
+            "page": 89
+        },
+        {
+            "level": "H2",
+            "text": "Foreign exchange in payment",
+            "page": 90
+        },
+        {
+            "level": "H1",
+            "text": "1. Bob sends 100 USD via a third-party payment provider. In our",
+            "page": 90
+        },
+        {
+            "level": "H1",
+            "text": "2. Paypal needs to convert USD to EUR. It leverages the foreign",
+            "page": 90
+        },
+        {
+            "level": "H1",
+            "text": "3. 100 USD is sold to Bank E’s funding pool.",
+            "page": 91
+        },
+        {
+            "level": "H1",
+            "text": "5. Paypal’s EUR account in Bank P2 receives 88 EUR.",
+            "page": 91
+        },
+        {
+            "level": "H1",
+            "text": "6. 88 EUR is paid to Alice’s EUR account in Bank A.",
+            "page": 91
+        },
+        {
+            "level": "H1",
+            "text": "1. The client sends an HTTP PUT request to create a bucket named",
+            "page": 93
+        },
+        {
+            "level": "H1",
+            "text": "2. The API service calls the Identity and Access Management (IAM) to",
+            "page": 93
+        },
+        {
+            "level": "H1",
+            "text": "3. The API service calls the metadata store to create an entry with the",
+            "page": 93
+        },
+        {
+            "level": "H1",
+            "text": "4. After the bucket is created, the client sends an HTTP PUT request",
+            "page": 93
+        },
+        {
+            "level": "H1",
+            "text": "5. The API service verifies the user’s identity and ensures the user has",
+            "page": 93
+        },
+        {
+            "level": "H1",
+            "text": "6. Once validation succeeds, the API service sends the object data in",
+            "page": 94
+        },
+        {
+            "level": "H1",
+            "text": "7. The API service calls the metadata store to create a new entry in the",
+            "page": 94
+        },
+        {
+            "level": "H2",
+            "text": "Block storage, file storage and object storage",
+            "page": 95
+        },
+        {
+            "level": "H2",
+            "text": "Block storage, file storage and object storage",
+            "page": 96
+        },
+        {
+            "level": "H2",
+            "text": "Domain Name System (DNS) lookup",
+            "page": 98
+        },
+        {
+            "level": "H1",
+            "text": "1. Root name server (.). It stores the IP addresses of Top Level",
+            "page": 98
+        },
+        {
+            "level": "H1",
+            "text": "2. TLD name server. It stores the IP addresses of authoritative name",
+            "page": 98
+        },
+        {
+            "level": "H1",
+            "text": "3. Authoritative name server. It provides actual answers to the DNS",
+            "page": 98
+        },
+        {
+            "level": "H1",
+            "text": "1. google.com is typed into the browser, and the browser sends the",
+            "page": 98
+        },
+        {
+            "level": "H1",
+            "text": "2. The resolver queries a DNS root name server.",
+            "page": 99
+        },
+        {
+            "level": "H1",
+            "text": "3. The root server responds to the resolver with the address of a TLD",
+            "page": 99
+        },
+        {
+            "level": "H1",
+            "text": "4. The resolver then makes a request to the .com TLD.",
+            "page": 99
+        },
+        {
+            "level": "H1",
+            "text": "5. The TLD server responds with the IP address of the domain’s name",
+            "page": 99
+        },
+        {
+            "level": "H1",
+            "text": "6. The DNS resolver sends a query to the domain’s nameserver.",
+            "page": 99
+        },
+        {
+            "level": "H1",
+            "text": "7. The IP address for google.com is then returned to the resolver from",
+            "page": 99
+        },
+        {
+            "level": "H1",
+            "text": "8. The DNS resolver responds to the web browser with the IP address",
+            "page": 99
+        },
+        {
+            "level": "H2",
+            "text": "What happens when you type a URL into your browser?",
+            "page": 100
+        },
+        {
+            "level": "H1",
+            "text": "1. Bob enters a URL into the browser and hits Enter. In this example,",
+            "page": 100
+        },
+        {
+            "level": "H1",
+            "text": "2. The browser looks up the IP address for the domain with a domain",
+            "page": 100
+        },
+        {
+            "level": "H2",
+            "text": "2.1 If the IP address cannot be found at any of the caches, the browser",
+            "page": 101
+        },
+        {
+            "level": "H1",
+            "text": "3. Now that we have the IP address of the server, the browser",
+            "page": 101
+        },
+        {
+            "level": "H1",
+            "text": "4. The browser sends a HTTP request to the server. The request looks",
+            "page": 101
+        },
+        {
+            "level": "H1",
+            "text": "5. The server processes the request and sends back the response. For",
+            "page": 101
+        },
+        {
+            "level": "H1",
+            "text": "6. The browser renders the HTML content.",
+            "page": 101
+        },
+        {
+            "level": "H2",
+            "text": "AI Coding engine",
+            "page": 102
+        },
+        {
+            "level": "H1",
+            "text": "1. Pre-train the transformer models on GitHub code.",
+            "page": 102
+        },
+        {
+            "level": "H1",
+            "text": "2. Fine-tune the models on the relatively small competitive",
+            "page": 102
+        },
+        {
+            "level": "H1",
+            "text": "3. At evaluation time, create a massive amount of solutions for each",
+            "page": 102
+        },
+        {
+            "level": "H1",
+            "text": "4. Filter, cluster and rerank the solutions to a small set of candidate",
+            "page": 102
+        },
+        {
+            "level": "H1",
+            "text": "5. Run the candidate programs against the test cases, evaluate the",
+            "page": 102
+        },
+        {
+            "level": "H2",
+            "text": "Read replica pattern",
+            "page": 104
+        },
+        {
+            "level": "H1",
+            "text": "1. Embed the routing logic in the application code (explained in the last",
+            "page": 104
+        },
+        {
+            "level": "H1",
+            "text": "2. Use database middleware.",
+            "page": 104
+        },
+        {
+            "level": "H1",
+            "text": "1. When Alice places an order on amazon, the request is sent to Order",
+            "page": 105
+        },
+        {
+            "level": "H1",
+            "text": "2. Order Service does not directly interact with the database. Instead, it",
+            "page": 105
+        },
+        {
+            "level": "H1",
+            "text": "3. The database middleware routes writes to the primary database.",
+            "page": 105
+        },
+        {
+            "level": "H1",
+            "text": "4. Alice views the order details (read). The request is sent through the",
+            "page": 105
+        },
+        {
+            "level": "H1",
+            "text": "5. Alice views the recent order history (read). The request is sent",
+            "page": 105
+        },
+        {
+            "level": "H2",
+            "text": "Read replica pattern",
+            "page": 106
+        },
+        {
+            "level": "H1",
+            "text": "1. When Alice places an order on amazon.com, the request is sent",
+            "page": 106
+        },
+        {
+            "level": "H1",
+            "text": "2. Order Service creates a record about the order in the primary",
+            "page": 106
+        },
+        {
+            "level": "H1",
+            "text": "3. Alice views the order details. Data is served from a replica",
+            "page": 106
+        },
+        {
+            "level": "H1",
+            "text": "4. Alice views the recent order history. Data is served from a",
+            "page": 106
+        },
+        {
+            "level": "H1",
+            "text": "1 ⃣  Latency sensitive reads are sent to the primary database.",
+            "page": 107
+        },
+        {
+            "level": "H1",
+            "text": "2 ⃣  Reads that immediately follow writes are routed to the primary",
+            "page": 107
+        },
+        {
+            "level": "H1",
+            "text": "3 ⃣ A relational DB generally provides a way to check if a replica is",
+            "page": 107
+        },
+        {
+            "level": "H2",
+            "text": "Email receiving flow",
+            "page": 108
+        },
+        {
+            "level": "H1",
+            "text": "1. Incoming emails arrive at the SMTP load balancer.",
+            "page": 108
+        },
+        {
+            "level": "H1",
+            "text": "2. The load balancer distributes traffic among SMTP servers. Email",
+            "page": 108
+        },
+        {
+            "level": "H1",
+            "text": "3. If the attachment of an email is too large to put into the queue, we",
+            "page": 108
+        },
+        {
+            "level": "H1",
+            "text": "4. Emails are put in the incoming email queue. The queue decouples",
+            "page": 108
+        },
+        {
+            "level": "H1",
+            "text": "5. Mail processing workers are responsible for a lot of tasks, including",
+            "page": 108
+        },
+        {
+            "level": "H1",
+            "text": "7. If the receiver is currently online, the email is pushed to real-time",
+            "page": 109
+        },
+        {
+            "level": "H1",
+            "text": "8. Real-time servers are WebSocket servers that allow clients to",
+            "page": 109
+        },
+        {
+            "level": "H1",
+            "text": "9. For offline users, emails are stored in the storage layer. When a user",
+            "page": 109
+        },
+        {
+            "level": "H1",
+            "text": "10. Web servers pull new emails from the storage layer and return",
+            "page": 109
+        },
+        {
+            "level": "H2",
+            "text": "Email sending flow",
+            "page": 110
+        },
+        {
+            "level": "H1",
+            "text": "2. The load balancer makes sure it doesn’t exceed the rate limit and",
+            "page": 110
+        },
+        {
+            "level": "H1",
+            "text": "3. Web servers are responsible for:",
+            "page": 110
+        },
+        {
+            "level": "H1",
+            "text": "4. Message queues.",
+            "page": 110
+        },
+        {
+            "level": "H1",
+            "text": "4.a. If basic email validation succeeds, the email data is passed to",
+            "page": 111
+        },
+        {
+            "level": "H1",
+            "text": "4.b. If basic email validation fails, the email is put in the error",
+            "page": 111
+        },
+        {
+            "level": "H1",
+            "text": "5. SMTP outgoing workers pull events from the outgoing queue and",
+            "page": 111
+        },
+        {
+            "level": "H1",
+            "text": "6. The outgoing email is stored in the “Sent Folder” of the storage",
+            "page": 111
+        },
+        {
+            "level": "H1",
+            "text": "7. SMTP outgoing workers send the email to the recipient mail server.",
+            "page": 111
+        },
+        {
+            "level": "H2",
+            "text": "Interview Question: Design Gmail",
+            "page": 112
+        },
+        {
+            "level": "H1",
+            "text": "1. Alice logs in to her Outlook client, composes an email, and presses",
+            "page": 112
+        },
+        {
+            "level": "H1",
+            "text": "2. Outlook mail server queries the DNS (not shown in the diagram) to",
+            "page": 112
+        },
+        {
+            "level": "H1",
+            "text": "3. The Gmail server stores the email and makes it available to Bob, the",
+            "page": 112
+        },
+        {
+            "level": "H1",
+            "text": "4. Gmail client fetches new emails through the IMAP/POP server when",
+            "page": 113
+        },
+        {
+            "level": "H2",
+            "text": "Map rendering",
+            "page": 114
+        },
+        {
+            "level": "H2",
+            "text": "Interview Question: Design Google Maps",
+            "page": 116
+        },
+        {
+            "level": "H1",
+            "text": "200 countries.",
+            "page": 116
+        },
+        {
+            "level": "H1",
+            "text": "1 ⃣  Geocoding Service: resolve the given address to a latitude/longitude",
+            "page": 117
+        },
+        {
+            "level": "H1",
+            "text": "2 ⃣  Route Planner Service: this service does three things in sequence:",
+            "page": 117
+        },
+        {
+            "level": "H2",
+            "text": "Pull vs push models",
+            "page": 118
+        },
+        {
+            "level": "H1",
+            "text": "1 ⃣  The metrics collector fetches configuration metadata of service",
+            "page": 119
+        },
+        {
+            "level": "H1",
+            "text": "2 ⃣  The metrics collector pulls metrics data via a pre-defined HTTP",
+            "page": 119
+        },
+        {
+            "level": "H1",
+            "text": "3 ⃣  Optionally, the metrics collector registers a change event notification",
+            "page": 119
+        },
+        {
+            "level": "H2",
+            "text": "Money movement",
+            "page": 120
+        },
+        {
+            "level": "H2",
+            "text": "1.1 Bob buys a book on Amazon using Paypal.",
+            "page": 121
+        },
+        {
+            "level": "H2",
+            "text": "1.2 Amazon issues a money transfer request to Paypal.",
+            "page": 121
+        },
+        {
+            "level": "H2",
+            "text": "1.3 Since the payment token of Bob’s debit card is stored in Paypal,",
+            "page": 121
+        },
+        {
+            "level": "H2",
+            "text": "1.4 Both Bank A and Bank B send transaction statements to the",
+            "page": 121
+        },
+        {
+            "level": "H2",
+            "text": "1.5 & 1.6 The clearing institution sends clearing and settlement",
+            "page": 121
+        },
+        {
+            "level": "H2",
+            "text": "2.1 Amazon informs the seller (Claire) that she will get paid soon.",
+            "page": 121
+        },
+        {
+            "level": "H2",
+            "text": "2.2 Amazon issues a money transfer request from its own bank (Bank",
+            "page": 121
+        },
+        {
+            "level": "H2",
+            "text": "2.3 Both Bank A and Bank C send transaction statements to the",
+            "page": 121
+        },
+        {
+            "level": "H2",
+            "text": "2.4 & 2.5 The clearing institution sends clearing and settlement",
+            "page": 121
+        },
+        {
+            "level": "H2",
+            "text": "Reconciliation",
+            "page": 123
+        },
+        {
+            "level": "H1",
+            "text": "1. Foreign Currency Problem: When you operate a store globally, you",
+            "page": 123
+        },
+        {
+            "level": "H1",
+            "text": "2. Payment providers are only that - intermediaries. Each purchase",
+            "page": 123
+        },
+        {
+            "level": "H1",
+            "text": "3. Some problems also pop up on the buyer side that is very",
+            "page": 123
+        },
+        {
+            "level": "H1",
+            "text": "1) Your shop assigns an order number to the purchase",
+            "page": 123
+        },
+        {
+            "level": "H1",
+            "text": "2) The order number is carried over to the payment provider",
+            "page": 124
+        },
+        {
+            "level": "H1",
+            "text": "3) The payment provider creates another internal ID, which is carried",
+            "page": 124
+        },
+        {
+            "level": "H1",
+            "text": "4) The payment ID is used when you get the payout on your bank",
+            "page": 124
+        },
+        {
+            "level": "H1",
+            "text": "5) Ideally, your payment provider and your shop have an",
+            "page": 124
+        },
+        {
+            "level": "H2",
+            "text": "Which database shall I use for the metrics collecting",
+            "page": 127
+        },
+        {
+            "level": "H2",
+            "text": "system?",
+            "page": 127
+        },
+        {
+            "level": "H2",
+            "text": "Metrics monitoring and altering system",
+            "page": 130
+        },
+        {
+            "level": "H2",
+            "text": "Reconciliation",
+            "page": 132
+        },
+        {
+            "level": "H1",
+            "text": "2 in the diagram).",
+            "page": 132
+        },
+        {
+            "level": "H2",
+            "text": "Big data papers",
+            "page": 135
+        },
+        {
+            "level": "H3",
+            "text": "Below is a timeline of important big data papers and how the",
+            "page": 135
+        },
+        {
+            "level": "H1",
+            "text": "2014, where streaming and batching processings were merged into",
+            "page": 136
+        },
+        {
+            "level": "H2",
+            "text": "Avoid double charge",
+            "page": 137
+        },
+        {
+            "level": "H1",
+            "text": "1. It is executed at least once.",
+            "page": 138
+        },
+        {
+            "level": "H1",
+            "text": "2. At the same time, it is executed at most once.",
+            "page": 138
+        },
+        {
+            "level": "H2",
+            "text": "Payment security",
+            "page": 139
+        },
+        {
+            "level": "H2",
+            "text": "System Design Interview Tip",
+            "page": 140
+        },
+        {
+            "level": "H1",
+            "text": "1. The Infrastructure Behind Twitter: Scale",
+            "page": 140
+        },
+        {
+            "level": "H1",
+            "text": "2. Discovery and Consumption of Analytics Data at Twitter",
+            "page": 140
+        },
+        {
+            "level": "H1",
+            "text": "3. The what and why of product experimentation at Twitter",
+            "page": 140
+        },
+        {
+            "level": "H1",
+            "text": "4. Twitter experimentation: technical overview",
+            "page": 140
+        },
+        {
+            "level": "H2",
+            "text": "Big data evolvement",
+            "page": 141
+        },
+        {
+            "level": "H2",
+            "text": "Quadtree",
+            "page": 143
+        },
+        {
+            "level": "H2",
+            "text": "How do we find nearby restaurants on Yelp?",
+            "page": 145
+        },
+        {
+            "level": "H2",
+            "text": "How does a modern stock exchange achieve",
+            "page": 148
+        },
+        {
+            "level": "H2",
+            "text": "microsecond latency?",
+            "page": 148
+        },
+        {
+            "level": "H2",
+            "text": "Match buy and sell orders",
+            "page": 150
+        },
+        {
+            "level": "H2",
+            "text": "Stock exchange design",
+            "page": 152
+        },
+        {
+            "level": "H2",
+            "text": "Design a payment system",
+            "page": 154
+        },
+        {
+            "level": "H1",
+            "text": "1. When a user clicks the “Buy” button, a payment event is generated",
+            "page": 154
+        },
+        {
+            "level": "H1",
+            "text": "2. The payment service stores the payment event in the database.",
+            "page": 154
+        },
+        {
+            "level": "H1",
+            "text": "3. Sometimes a single payment event may contain several payment",
+            "page": 154
+        },
+        {
+            "level": "H1",
+            "text": "4. The payment executor stores the payment order in the database.",
+            "page": 154
+        },
+        {
+            "level": "H1",
+            "text": "5. The payment executor calls an external PSP to finish the credit card",
+            "page": 154
+        },
+        {
+            "level": "H1",
+            "text": "6. After the payment executor has successfully executed the payment,",
+            "page": 154
+        },
+        {
+            "level": "H1",
+            "text": "7. The wallet server stores the updated balance information in the",
+            "page": 155
+        },
+        {
+            "level": "H1",
+            "text": "8. After the wallet service has successfully updated the seller’s balance",
+            "page": 155
+        },
+        {
+            "level": "H1",
+            "text": "9. The ledger service appends the new ledger information to the",
+            "page": 155
+        },
+        {
+            "level": "H2",
+            "text": "Design a flash sale system",
+            "page": 156
+        },
+        {
+            "level": "H1",
+            "text": "1. Less is more - less element on the web page, fewer data",
+            "page": 156
+        },
+        {
+            "level": "H1",
+            "text": "2. Short critical path - fewer hops among services or merge into",
+            "page": 156
+        },
+        {
+            "level": "H1",
+            "text": "3. Async - use message queues to handle high TPS",
+            "page": 156
+        },
+        {
+            "level": "H1",
+            "text": "4. Isolation - isolate static and dynamic contents, isolate processes",
+            "page": 156
+        },
+        {
+            "level": "H1",
+            "text": "5. Overselling is bad. When Decreasing the inventory is important",
+            "page": 156
+        },
+        {
+            "level": "H1",
+            "text": "6. User experience is important. We definitely don’t want to inform",
+            "page": 157
+        },
+        {
+            "level": "H2",
+            "text": "Back-of-the-envelope estimation",
+            "page": 158
+        }
+    ]
+}

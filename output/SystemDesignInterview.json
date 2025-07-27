@@ -1,0 +1,2070 @@
+{
+    "title": "",
+    "outline": [
+        {
+            "level": "H1",
+            "text": "System Design Interview: An Insider’s Guide",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "About the author:",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "Table of Contents",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "FORWARD",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "CHAPTER 1: SCALE FROM ZERO TO MILLIONS OF",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "USERS",
+            "page": 5
+        },
+        {
+            "level": "H3",
+            "text": "Single server setup",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "1. Users access websites through domain names, such as api.mysite.com. Usually, the",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "2. Internet Protocol (IP) address is returned to the browser or mobile app. In the example,",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "3. Once the IP address is obtained, Hypertext Transfer Protocol (HTTP) [1] requests are",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "4. The web server returns HTML pages or JSON response for rendering.",
+            "page": 7
+        },
+        {
+            "level": "H3",
+            "text": "Database",
+            "page": 8
+        },
+        {
+            "level": "H3",
+            "text": "Which databases to use?",
+            "page": 8
+        },
+        {
+            "level": "H3",
+            "text": "Vertical scaling vs horizontal scaling",
+            "page": 9
+        },
+        {
+            "level": "H3",
+            "text": "Load balancer",
+            "page": 10
+        },
+        {
+            "level": "H3",
+            "text": "Database replication",
+            "page": 12
+        },
+        {
+            "level": "H3",
+            "text": "Cache",
+            "page": 15
+        },
+        {
+            "level": "H3",
+            "text": "Cache tier",
+            "page": 15
+        },
+        {
+            "level": "H3",
+            "text": "Considerations for using cache",
+            "page": 15
+        },
+        {
+            "level": "H3",
+            "text": "Content delivery network (CDN)",
+            "page": 17
+        },
+        {
+            "level": "H1",
+            "text": "1. User A tries to get image.png by using an image URL. The URL’s domain is provided",
+            "page": 17
+        },
+        {
+            "level": "H1",
+            "text": "2. If the CDN server does not have image.png in the cache, the CDN server requests the",
+            "page": 17
+        },
+        {
+            "level": "H1",
+            "text": "3. The origin returns image.png to the CDN server, which includes optional HTTP header",
+            "page": 17
+        },
+        {
+            "level": "H1",
+            "text": "4. The CDN caches the image and returns it to User A. The image remains cached in the",
+            "page": 18
+        },
+        {
+            "level": "H1",
+            "text": "5. User B sends a request to get the same image.",
+            "page": 18
+        },
+        {
+            "level": "H3",
+            "text": "Considerations of using a CDN",
+            "page": 18
+        },
+        {
+            "level": "H1",
+            "text": "1. Static assets (JS, CSS, images, etc.,) are no longer served by web servers. They are",
+            "page": 19
+        },
+        {
+            "level": "H1",
+            "text": "2. The database load is lightened by caching data.",
+            "page": 19
+        },
+        {
+            "level": "H3",
+            "text": "Stateless web tier",
+            "page": 20
+        },
+        {
+            "level": "H3",
+            "text": "Stateful architecture",
+            "page": 20
+        },
+        {
+            "level": "H3",
+            "text": "Stateless architecture",
+            "page": 20
+        },
+        {
+            "level": "H3",
+            "text": "Data centers",
+            "page": 23
+        },
+        {
+            "level": "H3",
+            "text": "Message queue",
+            "page": 25
+        },
+        {
+            "level": "H3",
+            "text": "Logging, metrics, automation",
+            "page": 26
+        },
+        {
+            "level": "H1",
+            "text": "1. The design includes a message queue, which helps to make the system more loosely",
+            "page": 26
+        },
+        {
+            "level": "H1",
+            "text": "2. Logging, monitoring, metrics, and automation tools are included.",
+            "page": 26
+        },
+        {
+            "level": "H3",
+            "text": "Database scaling",
+            "page": 28
+        },
+        {
+            "level": "H3",
+            "text": "Vertical scaling",
+            "page": 28
+        },
+        {
+            "level": "H3",
+            "text": "Horizontal scaling",
+            "page": 28
+        },
+        {
+            "level": "H1",
+            "text": "20 compares vertical scaling with horizontal scaling.",
+            "page": 28
+        },
+        {
+            "level": "H3",
+            "text": "Millions of users and beyond",
+            "page": 32
+        },
+        {
+            "level": "H1",
+            "text": "Reference materials",
+            "page": 33
+        },
+        {
+            "level": "H1",
+            "text": "CHAPTER 2: BACK-OF-THE-ENVELOPE ESTIMATION",
+            "page": 34
+        },
+        {
+            "level": "H3",
+            "text": "Power of two",
+            "page": 35
+        },
+        {
+            "level": "H3",
+            "text": "Latency numbers every programmer should know",
+            "page": 36
+        },
+        {
+            "level": "H1",
+            "text": "1 ns = 10^-9 seconds",
+            "page": 36
+        },
+        {
+            "level": "H1",
+            "text": "1 µs= 10^-6 seconds = 1,000 ns",
+            "page": 36
+        },
+        {
+            "level": "H1",
+            "text": "1 ms = 10^-3 seconds = 1,000 µs = 1,000,000 ns",
+            "page": 36
+        },
+        {
+            "level": "H1",
+            "text": "2020 (source of figures: reference material [3]).",
+            "page": 37
+        },
+        {
+            "level": "H3",
+            "text": "Availability numbers",
+            "page": 38
+        },
+        {
+            "level": "H3",
+            "text": "Example: Estimate Twitter QPS and storage requirements",
+            "page": 39
+        },
+        {
+            "level": "H3",
+            "text": "Tips",
+            "page": 40
+        },
+        {
+            "level": "H1",
+            "text": "Reference materials",
+            "page": 41
+        },
+        {
+            "level": "H1",
+            "text": "CHAPTER 3: A FRAMEWORK FOR SYSTEM DESIGN",
+            "page": 42
+        },
+        {
+            "level": "H1",
+            "text": "INTERVIEWS",
+            "page": 42
+        },
+        {
+            "level": "H3",
+            "text": "A 4-step process for effective system design interview",
+            "page": 43
+        },
+        {
+            "level": "H3",
+            "text": "Step 1 - Understand the problem and establish design scope",
+            "page": 43
+        },
+        {
+            "level": "H3",
+            "text": "Example",
+            "page": 43
+        },
+        {
+            "level": "H3",
+            "text": "Interviewer : Both.",
+            "page": 44
+        },
+        {
+            "level": "H3",
+            "text": "Interviewer : 5000",
+            "page": 44
+        },
+        {
+            "level": "H3",
+            "text": "Step 2 - Propose high-level design and get buy-in",
+            "page": 44
+        },
+        {
+            "level": "H3",
+            "text": "Example",
+            "page": 44
+        },
+        {
+            "level": "H3",
+            "text": "Step 3 - Design deep dive",
+            "page": 46
+        },
+        {
+            "level": "H3",
+            "text": "Example",
+            "page": 47
+        },
+        {
+            "level": "H1",
+            "text": "1. Feed publishing",
+            "page": 47
+        },
+        {
+            "level": "H1",
+            "text": "2. News feed retrieval",
+            "page": 47
+        },
+        {
+            "level": "H3",
+            "text": "Step 4 - Wrap up",
+            "page": 49
+        },
+        {
+            "level": "H3",
+            "text": "Dos",
+            "page": 50
+        },
+        {
+            "level": "H3",
+            "text": "Time allocation on each step",
+            "page": 50
+        },
+        {
+            "level": "H1",
+            "text": "CHAPTER 4: DESIGN A RATE LIMITER",
+            "page": 51
+        },
+        {
+            "level": "H3",
+            "text": "Step 1 - Understand the problem and establish design scope",
+            "page": 52
+        },
+        {
+            "level": "H3",
+            "text": "Interviewer : Yes.",
+            "page": 52
+        },
+        {
+            "level": "H3",
+            "text": "Requirements",
+            "page": 52
+        },
+        {
+            "level": "H3",
+            "text": "Step 2 - Propose high-level design and get buy-in",
+            "page": 53
+        },
+        {
+            "level": "H3",
+            "text": "Where to put the rate limiter?",
+            "page": 53
+        },
+        {
+            "level": "H3",
+            "text": "Algorithms for rate limiting",
+            "page": 54
+        },
+        {
+            "level": "H1",
+            "text": "1:00:01 and 1:00:30, are removed from the log. After the remove operation, the log size",
+            "page": 61
+        },
+        {
+            "level": "H3",
+            "text": "High-level architecture",
+            "page": 62
+        },
+        {
+            "level": "H3",
+            "text": "Step 3 - Design deep dive",
+            "page": 64
+        },
+        {
+            "level": "H3",
+            "text": "Rate limiting rules",
+            "page": 64
+        },
+        {
+            "level": "H3",
+            "text": "Exceeding the rate limit",
+            "page": 64
+        },
+        {
+            "level": "H3",
+            "text": "Detailed design",
+            "page": 65
+        },
+        {
+            "level": "H3",
+            "text": "Rate limiter in a distributed environment",
+            "page": 66
+        },
+        {
+            "level": "H3",
+            "text": "Performance optimization",
+            "page": 67
+        },
+        {
+            "level": "H3",
+            "text": "Monitoring",
+            "page": 68
+        },
+        {
+            "level": "H3",
+            "text": "Step 4 - Wrap up",
+            "page": 69
+        },
+        {
+            "level": "H1",
+            "text": "Reference materials",
+            "page": 70
+        },
+        {
+            "level": "H1",
+            "text": "9304b0d18250",
+            "page": 70
+        },
+        {
+            "level": "H1",
+            "text": "CHAPTER 5: DESIGN CONSISTENT HASHING",
+            "page": 71
+        },
+        {
+            "level": "H3",
+            "text": "The rehashing problem",
+            "page": 72
+        },
+        {
+            "level": "H3",
+            "text": "Consistent hashing",
+            "page": 75
+        },
+        {
+            "level": "H3",
+            "text": "Hash space and hash ring",
+            "page": 75
+        },
+        {
+            "level": "H3",
+            "text": "Hash servers",
+            "page": 75
+        },
+        {
+            "level": "H3",
+            "text": "Hash keys",
+            "page": 76
+        },
+        {
+            "level": "H3",
+            "text": "Server lookup",
+            "page": 76
+        },
+        {
+            "level": "H3",
+            "text": "Add a server",
+            "page": 77
+        },
+        {
+            "level": "H3",
+            "text": "Remove a server",
+            "page": 78
+        },
+        {
+            "level": "H3",
+            "text": "Two issues in the basic approach",
+            "page": 79
+        },
+        {
+            "level": "H3",
+            "text": "Virtual nodes",
+            "page": 80
+        },
+        {
+            "level": "H3",
+            "text": "Find affected keys",
+            "page": 82
+        },
+        {
+            "level": "H3",
+            "text": "Wrap up",
+            "page": 85
+        },
+        {
+            "level": "H1",
+            "text": "Reference materials",
+            "page": 86
+        },
+        {
+            "level": "H1",
+            "text": "CHAPTER 6: DESIGN A KEY-VALUE STORE",
+            "page": 87
+        },
+        {
+            "level": "H3",
+            "text": "Understand the problem and establish design scope",
+            "page": 88
+        },
+        {
+            "level": "H3",
+            "text": "Single server key-value store",
+            "page": 89
+        },
+        {
+            "level": "H3",
+            "text": "Distributed key-value store",
+            "page": 90
+        },
+        {
+            "level": "H3",
+            "text": "CAP theorem",
+            "page": 90
+        },
+        {
+            "level": "H3",
+            "text": "Real-world distributed systems",
+            "page": 91
+        },
+        {
+            "level": "H3",
+            "text": "System components",
+            "page": 92
+        },
+        {
+            "level": "H3",
+            "text": "Data partition",
+            "page": 93
+        },
+        {
+            "level": "H3",
+            "text": "Data replication",
+            "page": 94
+        },
+        {
+            "level": "H3",
+            "text": "Consistency",
+            "page": 95
+        },
+        {
+            "level": "H1",
+            "text": "1  or  R = 1 , an operation is returned quickly because a coordinator only needs to wait for a",
+            "page": 95
+        },
+        {
+            "level": "H3",
+            "text": "Inconsistency resolution: versioning",
+            "page": 97
+        },
+        {
+            "level": "H1",
+            "text": "1. A client writes a data item  D1  to the system, and the write is handled by server  Sx ,",
+            "page": 98
+        },
+        {
+            "level": "H1",
+            "text": "2. Another client reads the latest  D1 , updates it to  D2 , and writes it back.   D2  descends",
+            "page": 98
+        },
+        {
+            "level": "H1",
+            "text": "3. Another client reads the latest  D2 , updates it to  D3 , and writes it back. Assume the write",
+            "page": 98
+        },
+        {
+            "level": "H1",
+            "text": "4. Another client reads the latest  D2 , updates it to  D4 , and writes it back. Assume the write",
+            "page": 98
+        },
+        {
+            "level": "H1",
+            "text": "5. When another client reads  D3  and  D4 , it discovers a conflict, which is caused by data",
+            "page": 99
+        },
+        {
+            "level": "H1",
+            "text": "2])  and  D([s0, 2], [s1, 1]).",
+            "page": 99
+        },
+        {
+            "level": "H3",
+            "text": "Handling failures",
+            "page": 99
+        },
+        {
+            "level": "H1",
+            "text": "12, reads and writes will be handled by  s3  temporarily. When  s2  comes back online,  s3  will",
+            "page": 101
+        },
+        {
+            "level": "H3",
+            "text": "Handling permanent failures",
+            "page": 101
+        },
+        {
+            "level": "H3",
+            "text": "System architecture diagram",
+            "page": 104
+        },
+        {
+            "level": "H3",
+            "text": "Write path",
+            "page": 105
+        },
+        {
+            "level": "H1",
+            "text": "1. The write request is persisted on a commit log file.",
+            "page": 105
+        },
+        {
+            "level": "H1",
+            "text": "2. Data is saved in the memory cache.",
+            "page": 105
+        },
+        {
+            "level": "H1",
+            "text": "3. When the memory cache is full or reaches a predefined threshold, data is flushed to",
+            "page": 106
+        },
+        {
+            "level": "H3",
+            "text": "Read path",
+            "page": 106
+        },
+        {
+            "level": "H1",
+            "text": "4. SSTables return the result of the data set.",
+            "page": 107
+        },
+        {
+            "level": "H1",
+            "text": "5. The result of the data set is returned to the client.",
+            "page": 107
+        },
+        {
+            "level": "H3",
+            "text": "Summary",
+            "page": 108
+        },
+        {
+            "level": "H1",
+            "text": "Reference materials",
+            "page": 109
+        },
+        {
+            "level": "H1",
+            "text": "CHAPTER 7: DESIGN A UNIQUE ID GENERATOR IN",
+            "page": 110
+        },
+        {
+            "level": "H1",
+            "text": "DISTRIBUTED SYSTEMS",
+            "page": 110
+        },
+        {
+            "level": "H3",
+            "text": "Step 1 - Understand the problem and establish design scope",
+            "page": 111
+        },
+        {
+            "level": "H3",
+            "text": "Step 2 - Propose high-level design and get buy-in",
+            "page": 112
+        },
+        {
+            "level": "H3",
+            "text": "Multi-master replication",
+            "page": 112
+        },
+        {
+            "level": "H3",
+            "text": "UUID",
+            "page": 112
+        },
+        {
+            "level": "H3",
+            "text": "Ticket Server",
+            "page": 113
+        },
+        {
+            "level": "H3",
+            "text": "Twitter snowflake approach",
+            "page": 114
+        },
+        {
+            "level": "H3",
+            "text": "Step 3 - Design deep dive",
+            "page": 115
+        },
+        {
+            "level": "H3",
+            "text": "Timestamp",
+            "page": 115
+        },
+        {
+            "level": "H1",
+            "text": "2 ^ 41 - 1 = 2199023255551  milliseconds (ms), which gives us: ~ 69 years =",
+            "page": 116
+        },
+        {
+            "level": "H1",
+            "text": "2199023255551 ms / 1000 seconds / 365 days / 24 hours/ 3600 seconds . This means the ID",
+            "page": 116
+        },
+        {
+            "level": "H3",
+            "text": "Step 4 - Wrap up",
+            "page": 117
+        },
+        {
+            "level": "H1",
+            "text": "Reference materials",
+            "page": 118
+        },
+        {
+            "level": "H1",
+            "text": "CHAPTER 8: DESIGN A URL SHORTENER",
+            "page": 119
+        },
+        {
+            "level": "H3",
+            "text": "Step 1 - Understand the problem and establish design scope",
+            "page": 120
+        },
+        {
+            "level": "H1",
+            "text": "1.URL shortening: given a long URL => return a much shorter URL",
+            "page": 120
+        },
+        {
+            "level": "H1",
+            "text": "2.URL redirecting: given a shorter URL => redirect to the original URL",
+            "page": 120
+        },
+        {
+            "level": "H1",
+            "text": "3.High availability, scalability, and fault tolerance considerations",
+            "page": 120
+        },
+        {
+            "level": "H3",
+            "text": "Back of the envelope estimation",
+            "page": 120
+        },
+        {
+            "level": "H1",
+            "text": "100 million * 365 * 10 = 365 billion records.",
+            "page": 120
+        },
+        {
+            "level": "H3",
+            "text": "Step 2 - Propose high-level design and get buy-in",
+            "page": 121
+        },
+        {
+            "level": "H3",
+            "text": "API Endpoints",
+            "page": 121
+        },
+        {
+            "level": "H1",
+            "text": "1.URL shortening. To create a new short URL, a client sends a POST request, which contains",
+            "page": 121
+        },
+        {
+            "level": "H1",
+            "text": "2.URL redirecting. To redirect a short URL to the corresponding long URL, a client sends a",
+            "page": 121
+        },
+        {
+            "level": "H3",
+            "text": "URL redirecting",
+            "page": 121
+        },
+        {
+            "level": "H1",
+            "text": "301 redirect . A 301 redirect shows that the requested URL is “permanently” moved to the",
+            "page": 122
+        },
+        {
+            "level": "H1",
+            "text": "302 redirect . A 302 redirect means that the URL is “temporarily” moved to the long URL,",
+            "page": 122
+        },
+        {
+            "level": "H3",
+            "text": "URL shortening",
+            "page": 122
+        },
+        {
+            "level": "H3",
+            "text": "Step 3 - Design deep dive",
+            "page": 124
+        },
+        {
+            "level": "H3",
+            "text": "Data model",
+            "page": 124
+        },
+        {
+            "level": "H3",
+            "text": "Hash function",
+            "page": 124
+        },
+        {
+            "level": "H1",
+            "text": "62 conversion is used as there are 62 possible characters for  hashValue . Let us use an",
+            "page": 126
+        },
+        {
+            "level": "H1",
+            "text": "0-0, ..., 9-9, 10-a, 11-b, ..., 35-z, 36-A, ..., 61-Z, where  ‘a’ stands for 10, ‘Z’ stands for 61,",
+            "page": 126
+        },
+        {
+            "level": "H3",
+            "text": "URL shortening deep dive",
+            "page": 127
+        },
+        {
+            "level": "H1",
+            "text": "1. longURL is the input.",
+            "page": 128
+        },
+        {
+            "level": "H1",
+            "text": "2. The system checks if the longURL is in the database.",
+            "page": 128
+        },
+        {
+            "level": "H1",
+            "text": "3. If it is, it means the longURL was converted to shortURL before. In this case, fetch the",
+            "page": 128
+        },
+        {
+            "level": "H1",
+            "text": "4. If not, the longURL is new. A new unique ID (primary key) Is generated by the unique",
+            "page": 128
+        },
+        {
+            "level": "H1",
+            "text": "5. Convert the ID to shortURL with base 62 conversion.",
+            "page": 128
+        },
+        {
+            "level": "H1",
+            "text": "6. Create a new database row with the ID, shortURL, and longURL.",
+            "page": 128
+        },
+        {
+            "level": "H3",
+            "text": "URL redirecting deep dive",
+            "page": 129
+        },
+        {
+            "level": "H1",
+            "text": "1. A user clicks a short URL link: https://tinyurl.com/zn9edcu",
+            "page": 129
+        },
+        {
+            "level": "H1",
+            "text": "2. The load balancer forwards the request to web servers.",
+            "page": 129
+        },
+        {
+            "level": "H1",
+            "text": "4. If a shortURL is not in the cache, fetch the longURL from the database. If it is not in the",
+            "page": 129
+        },
+        {
+            "level": "H1",
+            "text": "5. The longURL is returned to the user.",
+            "page": 129
+        },
+        {
+            "level": "H3",
+            "text": "Step 4 - Wrap up",
+            "page": 130
+        },
+        {
+            "level": "H1",
+            "text": "Reference materials",
+            "page": 131
+        },
+        {
+            "level": "H1",
+            "text": "CHAPTER 9: DESIGN A WEB CRAWLER",
+            "page": 132
+        },
+        {
+            "level": "H3",
+            "text": "Step 1 - Understand the problem and establish design scope",
+            "page": 134
+        },
+        {
+            "level": "H1",
+            "text": "2. Extract URLs from these web pages",
+            "page": 134
+        },
+        {
+            "level": "H3",
+            "text": "Back of the envelope estimation",
+            "page": 134
+        },
+        {
+            "level": "H3",
+            "text": "Step 2 - Propose high-level design and get buy-in",
+            "page": 136
+        },
+        {
+            "level": "H3",
+            "text": "Content Parser",
+            "page": 137
+        },
+        {
+            "level": "H3",
+            "text": "Content Seen?",
+            "page": 137
+        },
+        {
+            "level": "H3",
+            "text": "Content Storage",
+            "page": 137
+        },
+        {
+            "level": "H3",
+            "text": "Step 3 - Design deep dive",
+            "page": 140
+        },
+        {
+            "level": "H3",
+            "text": "DFS vs BFS",
+            "page": 140
+        },
+        {
+            "level": "H3",
+            "text": "URL frontier",
+            "page": 141
+        },
+        {
+            "level": "H3",
+            "text": "Politeness",
+            "page": 141
+        },
+        {
+            "level": "H3",
+            "text": "Priority",
+            "page": 142
+        },
+        {
+            "level": "H3",
+            "text": "Freshness",
+            "page": 144
+        },
+        {
+            "level": "H3",
+            "text": "HTML Downloader",
+            "page": 145
+        },
+        {
+            "level": "H1",
+            "text": "1. Distributed crawl",
+            "page": 145
+        },
+        {
+            "level": "H1",
+            "text": "2. Cache DNS Resolver",
+            "page": 146
+        },
+        {
+            "level": "H1",
+            "text": "200ms. Once a request to DNS is carried out by a crawler thread, other threads are blocked",
+            "page": 146
+        },
+        {
+            "level": "H1",
+            "text": "3. Locality",
+            "page": 146
+        },
+        {
+            "level": "H1",
+            "text": "4. Short timeout",
+            "page": 146
+        },
+        {
+            "level": "H3",
+            "text": "Robustness",
+            "page": 146
+        },
+        {
+            "level": "H3",
+            "text": "Extensibility",
+            "page": 147
+        },
+        {
+            "level": "H3",
+            "text": "Detect and avoid problematic content",
+            "page": 147
+        },
+        {
+            "level": "H1",
+            "text": "1. Redundant content",
+            "page": 147
+        },
+        {
+            "level": "H1",
+            "text": "2. Spider traps",
+            "page": 147
+        },
+        {
+            "level": "H1",
+            "text": "3. Data noise",
+            "page": 148
+        },
+        {
+            "level": "H3",
+            "text": "Step 4 - Wrap up",
+            "page": 149
+        },
+        {
+            "level": "H1",
+            "text": "Reference materials",
+            "page": 150
+        },
+        {
+            "level": "H1",
+            "text": "CHAPTER 10: DESIGN A NOTIFICATION SYSTEM",
+            "page": 151
+        },
+        {
+            "level": "H3",
+            "text": "Step 1 - Understand the problem and establish design scope",
+            "page": 152
+        },
+        {
+            "level": "H3",
+            "text": "Step 2 - Propose high-level design and get buy-in",
+            "page": 153
+        },
+        {
+            "level": "H3",
+            "text": "Different types of notifications",
+            "page": 153
+        },
+        {
+            "level": "H3",
+            "text": "Email",
+            "page": 154
+        },
+        {
+            "level": "H3",
+            "text": "Contact info gathering flow",
+            "page": 155
+        },
+        {
+            "level": "H3",
+            "text": "Notification sending/receiving flow",
+            "page": 156
+        },
+        {
+            "level": "H3",
+            "text": "Service 1 to N : A service can be a micro-service, a cron job, or a distributed system that",
+            "page": 156
+        },
+        {
+            "level": "H1",
+            "text": "1. A service calls APIs provided by notification servers to send notifications.",
+            "page": 159
+        },
+        {
+            "level": "H1",
+            "text": "2. Notification servers fetch metadata such as user info, device token, and notification",
+            "page": 159
+        },
+        {
+            "level": "H1",
+            "text": "3. A notification event is sent to the corresponding queue for processing. For instance, an",
+            "page": 159
+        },
+        {
+            "level": "H1",
+            "text": "4. Workers pull notification events from message queues.",
+            "page": 159
+        },
+        {
+            "level": "H1",
+            "text": "5. Workers send notifications to third party services.",
+            "page": 159
+        },
+        {
+            "level": "H1",
+            "text": "6. Third-party services send notifications to user devices.",
+            "page": 159
+        },
+        {
+            "level": "H3",
+            "text": "Step 3 - Design deep dive",
+            "page": 160
+        },
+        {
+            "level": "H3",
+            "text": "Reliability",
+            "page": 160
+        },
+        {
+            "level": "H3",
+            "text": "Will recipients receive a notification exactly once?",
+            "page": 160
+        },
+        {
+            "level": "H3",
+            "text": "Additional components and considerations",
+            "page": 160
+        },
+        {
+            "level": "H3",
+            "text": "Updated design",
+            "page": 162
+        },
+        {
+            "level": "H3",
+            "text": "Step 4 - Wrap up",
+            "page": 164
+        },
+        {
+            "level": "H1",
+            "text": "Reference materials",
+            "page": 165
+        },
+        {
+            "level": "H1",
+            "text": "CHAPTER 11: DESIGN A NEWS FEED SYSTEM",
+            "page": 166
+        },
+        {
+            "level": "H3",
+            "text": "Step 1 - Understand the problem and establish design scope",
+            "page": 167
+        },
+        {
+            "level": "H3",
+            "text": "Interviewer : Both",
+            "page": 167
+        },
+        {
+            "level": "H3",
+            "text": "Interviewer : 5000",
+            "page": 167
+        },
+        {
+            "level": "H3",
+            "text": "Step 2 - Propose high-level design and get buy-in",
+            "page": 168
+        },
+        {
+            "level": "H3",
+            "text": "Newsfeed APIs",
+            "page": 168
+        },
+        {
+            "level": "H3",
+            "text": "Feed publishing",
+            "page": 168
+        },
+        {
+            "level": "H3",
+            "text": "Newsfeed building",
+            "page": 169
+        },
+        {
+            "level": "H3",
+            "text": "Step 3 - Design deep dive",
+            "page": 171
+        },
+        {
+            "level": "H3",
+            "text": "Feed publishing deep dive",
+            "page": 171
+        },
+        {
+            "level": "H3",
+            "text": "Web servers",
+            "page": 171
+        },
+        {
+            "level": "H1",
+            "text": "1. Fetch friend IDs from the graph database. Graph databases are suited for managing",
+            "page": 173
+        },
+        {
+            "level": "H1",
+            "text": "2. Get friends info from the user cache. The system then filters out friends based on user",
+            "page": 173
+        },
+        {
+            "level": "H1",
+            "text": "3. Send friends list and new post ID to the message queue.",
+            "page": 173
+        },
+        {
+            "level": "H1",
+            "text": "4. Fanout workers fetch data from the message queue and store news feed data in the news",
+            "page": 173
+        },
+        {
+            "level": "H3",
+            "text": "Newsfeed retrieval deep dive",
+            "page": 174
+        },
+        {
+            "level": "H1",
+            "text": "1. A user sends a request to retrieve her news feed. The request looks like this:  /v1/me/feed",
+            "page": 175
+        },
+        {
+            "level": "H1",
+            "text": "2. The load balancer redistributes requests to web servers.",
+            "page": 175
+        },
+        {
+            "level": "H1",
+            "text": "3. Web servers call the news feed service to fetch news feeds.",
+            "page": 175
+        },
+        {
+            "level": "H1",
+            "text": "5. A user’s news feed is more than just a list of feed IDs. It contains username, profile",
+            "page": 175
+        },
+        {
+            "level": "H1",
+            "text": "6. The fully hydrated news feed is returned in JSON format back to the client for",
+            "page": 175
+        },
+        {
+            "level": "H3",
+            "text": "Cache architecture",
+            "page": 175
+        },
+        {
+            "level": "H3",
+            "text": "Step 4 - Wrap up",
+            "page": 176
+        },
+        {
+            "level": "H1",
+            "text": "Reference materials",
+            "page": 177
+        },
+        {
+            "level": "H1",
+            "text": "CHAPTER 12: DESIGN A CHAT SYSTEM",
+            "page": 178
+        },
+        {
+            "level": "H3",
+            "text": "Step 1 - Understand the problem and establish design scope",
+            "page": 179
+        },
+        {
+            "level": "H3",
+            "text": "Interviewer : Both.",
+            "page": 179
+        },
+        {
+            "level": "H3",
+            "text": "Interviewer : Forever.",
+            "page": 179
+        },
+        {
+            "level": "H3",
+            "text": "Step 2 - Propose high-level design and get buy-in",
+            "page": 180
+        },
+        {
+            "level": "H3",
+            "text": "Polling",
+            "page": 180
+        },
+        {
+            "level": "H3",
+            "text": "Long polling",
+            "page": 181
+        },
+        {
+            "level": "H3",
+            "text": "WebSocket",
+            "page": 182
+        },
+        {
+            "level": "H3",
+            "text": "High-level design",
+            "page": 184
+        },
+        {
+            "level": "H3",
+            "text": "Stateless Services",
+            "page": 184
+        },
+        {
+            "level": "H3",
+            "text": "Stateful Service",
+            "page": 185
+        },
+        {
+            "level": "H3",
+            "text": "Scalability",
+            "page": 185
+        },
+        {
+            "level": "H1",
+            "text": "12-8 shows the adjusted high-level design.",
+            "page": 185
+        },
+        {
+            "level": "H3",
+            "text": "Storage",
+            "page": 186
+        },
+        {
+            "level": "H3",
+            "text": "Data models",
+            "page": 187
+        },
+        {
+            "level": "H3",
+            "text": "Message ID",
+            "page": 188
+        },
+        {
+            "level": "H3",
+            "text": "Step 3 - Design deep dive",
+            "page": 190
+        },
+        {
+            "level": "H3",
+            "text": "Service discovery",
+            "page": 190
+        },
+        {
+            "level": "H1",
+            "text": "1. User A tries to log in to the app.",
+            "page": 190
+        },
+        {
+            "level": "H1",
+            "text": "2. The load balancer sends the login request to API servers.",
+            "page": 190
+        },
+        {
+            "level": "H1",
+            "text": "3. After the backend authenticates the user, service discovery finds the best chat server for",
+            "page": 190
+        },
+        {
+            "level": "H1",
+            "text": "4. User A connects to chat server 2 through WebSocket.",
+            "page": 190
+        },
+        {
+            "level": "H3",
+            "text": "Message flows",
+            "page": 190
+        },
+        {
+            "level": "H1",
+            "text": "1 on 1 chat flow",
+            "page": 191
+        },
+        {
+            "level": "H1",
+            "text": "1. User A sends a chat message to Chat server 1.",
+            "page": 191
+        },
+        {
+            "level": "H1",
+            "text": "2. Chat server 1 obtains a message ID from the ID generator.",
+            "page": 191
+        },
+        {
+            "level": "H1",
+            "text": "3. Chat server 1 sends the message to the message sync queue.",
+            "page": 191
+        },
+        {
+            "level": "H1",
+            "text": "4. The message is stored in a key-value store.",
+            "page": 191
+        },
+        {
+            "level": "H1",
+            "text": "5.a. If User B is online, the message is forwarded to Chat server 2 where User B is",
+            "page": 191
+        },
+        {
+            "level": "H1",
+            "text": "6. Chat server 2 forwards the message to User B. There is a persistent WebSocket",
+            "page": 191
+        },
+        {
+            "level": "H1",
+            "text": "12-14 and 12-15 explain the flow.",
+            "page": 192
+        },
+        {
+            "level": "H1",
+            "text": "12-15 illustrates the design.",
+            "page": 193
+        },
+        {
+            "level": "H3",
+            "text": "Online presence",
+            "page": 194
+        },
+        {
+            "level": "H3",
+            "text": "User disconnection",
+            "page": 195
+        },
+        {
+            "level": "H3",
+            "text": "Step 4 - Wrap up",
+            "page": 198
+        },
+        {
+            "level": "H1",
+            "text": "Reference materials",
+            "page": 199
+        },
+        {
+            "level": "H1",
+            "text": "CHAPTER 13: DESIGN A SEARCH AUTOCOMPLETE",
+            "page": 200
+        },
+        {
+            "level": "H1",
+            "text": "SYSTEM",
+            "page": 200
+        },
+        {
+            "level": "H3",
+            "text": "Step 1 - Understand the problem and establish design scope",
+            "page": 201
+        },
+        {
+            "level": "H3",
+            "text": "Interviewer : 5",
+            "page": 201
+        },
+        {
+            "level": "H3",
+            "text": "Requirements",
+            "page": 201
+        },
+        {
+            "level": "H3",
+            "text": "Back of the envelope estimation",
+            "page": 201
+        },
+        {
+            "level": "H1",
+            "text": "24 hours / 3600 seconds.",
+            "page": 202
+        },
+        {
+            "level": "H3",
+            "text": "Step 2 - Propose high-level design and get buy-in",
+            "page": 203
+        },
+        {
+            "level": "H3",
+            "text": "Data gathering service",
+            "page": 203
+        },
+        {
+            "level": "H3",
+            "text": "Query service",
+            "page": 203
+        },
+        {
+            "level": "H3",
+            "text": "Step 3 - Design deep dive",
+            "page": 206
+        },
+        {
+            "level": "H3",
+            "text": "Trie data structure",
+            "page": 206
+        },
+        {
+            "level": "H1",
+            "text": "5 search queries from a relational database is inefficient. The data structure trie (prefix tree) is",
+            "page": 206
+        },
+        {
+            "level": "H1",
+            "text": "1. Find the prefix. Time complexity:  O(p) .",
+            "page": 208
+        },
+        {
+            "level": "H1",
+            "text": "2. Traverse the subtree from the prefix node to get all valid children. A child is valid if it",
+            "page": 208
+        },
+        {
+            "level": "H1",
+            "text": "3. Sort the children and get top  k . Time complexity:  O(clogc)",
+            "page": 208
+        },
+        {
+            "level": "H1",
+            "text": "2 and a user types “tr” in the search box. The algorithm works as follows:",
+            "page": 208
+        },
+        {
+            "level": "H1",
+            "text": "35], [try: 29] are valid.",
+            "page": 208
+        },
+        {
+            "level": "H1",
+            "text": "1. Limit the max length of a prefix",
+            "page": 209
+        },
+        {
+            "level": "H1",
+            "text": "2. Cache top search queries at each node",
+            "page": 209
+        },
+        {
+            "level": "H1",
+            "text": "1. Find the prefix node. Time complexity:  O(1)",
+            "page": 210
+        },
+        {
+            "level": "H3",
+            "text": "Data gathering service",
+            "page": 210
+        },
+        {
+            "level": "H3",
+            "text": "Aggregators.  The size of analytics logs is usually very large, and data is not in the right",
+            "page": 211
+        },
+        {
+            "level": "H3",
+            "text": "Aggregated Data.",
+            "page": 211
+        },
+        {
+            "level": "H1",
+            "text": "1. Document store: Since a new trie is built weekly, we can periodically take a snapshot of it,",
+            "page": 212
+        },
+        {
+            "level": "H1",
+            "text": "2. Key-value store: A trie can be represented in a hash table form [4] by applying the",
+            "page": 212
+        },
+        {
+            "level": "H3",
+            "text": "Query service",
+            "page": 213
+        },
+        {
+            "level": "H1",
+            "text": "1. A search query is sent to the load balancer.",
+            "page": 214
+        },
+        {
+            "level": "H1",
+            "text": "2. The load balancer routes the request to API servers.",
+            "page": 214
+        },
+        {
+            "level": "H1",
+            "text": "3. API servers get trie data from Trie Cache and construct autocomplete suggestions for",
+            "page": 214
+        },
+        {
+            "level": "H1",
+            "text": "4. In case the data is not in Trie Cache, we replenish data back to the cache. This way, all",
+            "page": 214
+        },
+        {
+            "level": "H3",
+            "text": "Trie operations",
+            "page": 215
+        },
+        {
+            "level": "H3",
+            "text": "Create",
+            "page": 215
+        },
+        {
+            "level": "H3",
+            "text": "Update",
+            "page": 215
+        },
+        {
+            "level": "H3",
+            "text": "Delete",
+            "page": 216
+        },
+        {
+            "level": "H3",
+            "text": "Scale the storage",
+            "page": 216
+        },
+        {
+            "level": "H3",
+            "text": "Step 4 - Wrap up",
+            "page": 218
+        },
+        {
+            "level": "H1",
+            "text": "Reference materials",
+            "page": 219
+        },
+        {
+            "level": "H1",
+            "text": "CHAPTER 14: DESIGN YOUTUBE",
+            "page": 220
+        },
+        {
+            "level": "H3",
+            "text": "Step 1 - Understand the problem and establish design scope",
+            "page": 221
+        },
+        {
+            "level": "H3",
+            "text": "Interviewer : Yes",
+            "page": 221
+        },
+        {
+            "level": "H3",
+            "text": "Back of the envelope estimation",
+            "page": 221
+        },
+        {
+            "level": "H3",
+            "text": "Step 2 - Propose high-level design and get buy-in",
+            "page": 223
+        },
+        {
+            "level": "H3",
+            "text": "Video uploading flow",
+            "page": 223
+        },
+        {
+            "level": "H1",
+            "text": "1. Videos are uploaded to the original storage.",
+            "page": 226
+        },
+        {
+            "level": "H1",
+            "text": "2. Transcoding servers fetch videos from the original storage and start transcoding.",
+            "page": 226
+        },
+        {
+            "level": "H1",
+            "text": "3. Once transcoding is complete, the following two steps are executed in parallel:",
+            "page": 226
+        },
+        {
+            "level": "H1",
+            "text": "3a. Transcoded videos are sent to transcoded storage.",
+            "page": 226
+        },
+        {
+            "level": "H1",
+            "text": "3b. Transcoding completion events are queued in the completion queue.",
+            "page": 226
+        },
+        {
+            "level": "H1",
+            "text": "3a.1. Transcoded videos are distributed to CDN.",
+            "page": 226
+        },
+        {
+            "level": "H1",
+            "text": "3b.1. Completion handler contains a bunch of workers that continuously pull event data",
+            "page": 226
+        },
+        {
+            "level": "H1",
+            "text": "3b.1.a. and 3b.1.b. Completion handler updates the metadata database and cache when",
+            "page": 227
+        },
+        {
+            "level": "H1",
+            "text": "4. API servers inform the client that the video is successfully uploaded and is ready for",
+            "page": 227
+        },
+        {
+            "level": "H3",
+            "text": "Video streaming flow",
+            "page": 227
+        },
+        {
+            "level": "H3",
+            "text": "Step 3 - Design deep dive",
+            "page": 229
+        },
+        {
+            "level": "H3",
+            "text": "Video transcoding",
+            "page": 229
+        },
+        {
+            "level": "H3",
+            "text": "Directed acyclic graph (DAG) model",
+            "page": 229
+        },
+        {
+            "level": "H3",
+            "text": "Video transcoding architecture",
+            "page": 231
+        },
+        {
+            "level": "H3",
+            "text": "Preprocessor",
+            "page": 231
+        },
+        {
+            "level": "H1",
+            "text": "1. Video splitting. Video stream is split or further split into smaller Group of Pictures (GOP)",
+            "page": 232
+        },
+        {
+            "level": "H1",
+            "text": "2. Some old mobile devices or browsers might not support video splitting. Preprocessor split",
+            "page": 232
+        },
+        {
+            "level": "H1",
+            "text": "3. DAG generation. The processor generates DAG based on configuration files client",
+            "page": 232
+        },
+        {
+            "level": "H1",
+            "text": "1 edge:",
+            "page": 232
+        },
+        {
+            "level": "H1",
+            "text": "4. Cache data. The preprocessor is a cache for segmented videos. For better reliability, the",
+            "page": 232
+        },
+        {
+            "level": "H3",
+            "text": "Temporary storage",
+            "page": 235
+        },
+        {
+            "level": "H3",
+            "text": "System optimizations",
+            "page": 236
+        },
+        {
+            "level": "H3",
+            "text": "Speed optimization: place upload centers close to users",
+            "page": 236
+        },
+        {
+            "level": "H3",
+            "text": "Speed optimization: parallelism everywhere",
+            "page": 237
+        },
+        {
+            "level": "H1",
+            "text": "14-25, revealing that the output depends on the input of the previous step. This dependency",
+            "page": 237
+        },
+        {
+            "level": "H1",
+            "text": "14-26. Let us use an example to explain how message queues make the system more loosely",
+            "page": 238
+        },
+        {
+            "level": "H3",
+            "text": "Safety optimization: pre-signed upload URL",
+            "page": 238
+        },
+        {
+            "level": "H1",
+            "text": "1. The client makes a HTTP request to API servers to fetch the pre-signed URL, which",
+            "page": 239
+        },
+        {
+            "level": "H1",
+            "text": "2. API servers respond with a pre-signed URL.",
+            "page": 239
+        },
+        {
+            "level": "H1",
+            "text": "1. Only serve the most popular videos from CDN and other videos from our high capacity",
+            "page": 239
+        },
+        {
+            "level": "H1",
+            "text": "2. For less popular content, we may not need to store many encoded video versions. Short",
+            "page": 240
+        },
+        {
+            "level": "H1",
+            "text": "3. Some videos are popular only in certain regions. There is no need to distribute these",
+            "page": 240
+        },
+        {
+            "level": "H3",
+            "text": "Error handling",
+            "page": 240
+        },
+        {
+            "level": "H3",
+            "text": "Step 4 - Wrap up",
+            "page": 242
+        },
+        {
+            "level": "H1",
+            "text": "Reference materials",
+            "page": 243
+        },
+        {
+            "level": "H1",
+            "text": "CHAPTER 15: DESIGN GOOGLE DRIVE",
+            "page": 244
+        },
+        {
+            "level": "H3",
+            "text": "Step 1 - Understand the problem and establish design scope",
+            "page": 246
+        },
+        {
+            "level": "H3",
+            "text": "Interviewer : Both.",
+            "page": 246
+        },
+        {
+            "level": "H3",
+            "text": "Back of the envelope estimation",
+            "page": 246
+        },
+        {
+            "level": "H3",
+            "text": "Step 2 - Propose high-level design and get buy-in",
+            "page": 248
+        },
+        {
+            "level": "H3",
+            "text": "APIs",
+            "page": 248
+        },
+        {
+            "level": "H1",
+            "text": "1. Upload a file to Google Drive",
+            "page": 248
+        },
+        {
+            "level": "H1",
+            "text": "2. Download a file from Google Drive",
+            "page": 249
+        },
+        {
+            "level": "H1",
+            "text": "3. Get file revisions",
+            "page": 249
+        },
+        {
+            "level": "H3",
+            "text": "Move away from single server",
+            "page": 249
+        },
+        {
+            "level": "H3",
+            "text": "Sync conflicts",
+            "page": 251
+        },
+        {
+            "level": "H3",
+            "text": "High-level design",
+            "page": 252
+        },
+        {
+            "level": "H3",
+            "text": "Step 3 - Design deep dive",
+            "page": 255
+        },
+        {
+            "level": "H3",
+            "text": "Block servers",
+            "page": 255
+        },
+        {
+            "level": "H3",
+            "text": "High consistency requirement",
+            "page": 256
+        },
+        {
+            "level": "H3",
+            "text": "Metadata database",
+            "page": 256
+        },
+        {
+            "level": "H3",
+            "text": "Upload flow",
+            "page": 257
+        },
+        {
+            "level": "H1",
+            "text": "2. Store the new file metadata in metadata DB and change the file upload status to",
+            "page": 258
+        },
+        {
+            "level": "H1",
+            "text": "3. Notify the notification service that a new file is being added.",
+            "page": 258
+        },
+        {
+            "level": "H1",
+            "text": "4. The notification service notifies relevant clients (client 2) that a file is being",
+            "page": 258
+        },
+        {
+            "level": "H2",
+            "text": "2.1 Client 1 uploads the content of the file to block servers.",
+            "page": 258
+        },
+        {
+            "level": "H2",
+            "text": "2.2 Block servers chunk the files into blocks, compress, encrypt the blocks, and",
+            "page": 258
+        },
+        {
+            "level": "H2",
+            "text": "2.3 Once the file is uploaded, cloud storage triggers upload completion callback. The",
+            "page": 258
+        },
+        {
+            "level": "H2",
+            "text": "2.4 File status changed to “uploaded” in Metadata DB.",
+            "page": 258
+        },
+        {
+            "level": "H2",
+            "text": "2.5 Notify the notification service that a file status is changed to “uploaded.”",
+            "page": 258
+        },
+        {
+            "level": "H2",
+            "text": "2.6 The notification service notifies relevant clients (client 2) that a file is fully",
+            "page": 258
+        },
+        {
+            "level": "H3",
+            "text": "Download flow",
+            "page": 258
+        },
+        {
+            "level": "H1",
+            "text": "3. API servers call metadata DB to fetch metadata of the changes.",
+            "page": 259
+        },
+        {
+            "level": "H1",
+            "text": "4. Metadata is returned to the API servers.",
+            "page": 259
+        },
+        {
+            "level": "H1",
+            "text": "5. Client 2 gets the metadata.",
+            "page": 259
+        },
+        {
+            "level": "H1",
+            "text": "6. Once the client receives the metadata, it sends requests to block servers to download",
+            "page": 259
+        },
+        {
+            "level": "H1",
+            "text": "7. Block servers first download blocks from cloud storage.",
+            "page": 259
+        },
+        {
+            "level": "H1",
+            "text": "8. Cloud storage returns blocks to the block servers.",
+            "page": 259
+        },
+        {
+            "level": "H1",
+            "text": "9. Client 2 downloads all the new blocks to reconstruct the file.",
+            "page": 259
+        },
+        {
+            "level": "H3",
+            "text": "Notification service",
+            "page": 259
+        },
+        {
+            "level": "H3",
+            "text": "Save storage space",
+            "page": 260
+        },
+        {
+            "level": "H3",
+            "text": "Failure Handling",
+            "page": 260
+        },
+        {
+            "level": "H3",
+            "text": "Step 4 - Wrap up",
+            "page": 262
+        },
+        {
+            "level": "H1",
+            "text": "Reference materials",
+            "page": 263
+        },
+        {
+            "level": "H1",
+            "text": "CHAPTER 16: THE LEARNING CONTINUES",
+            "page": 264
+        },
+        {
+            "level": "H3",
+            "text": "Real-world systems",
+            "page": 265
+        },
+        {
+            "level": "H3",
+            "text": "Facebook Timeline: Brought To You By The Power Of Denormalization:",
+            "page": 265
+        },
+        {
+            "level": "H3",
+            "text": "Company engineering blogs",
+            "page": 267
+        },
+        {
+            "level": "H1",
+            "text": "AFTERWORD",
+            "page": 269
+        }
+    ]
+}
